@@ -1,0 +1,353 @@
+//base layout
+@import '../base/base'
+@import '../layout/banner'
+@import '../components/buttons'
+@import '../pages/pricing'
+@import '../layout/table'
+@import '../layout/common/heading'
+@import '../components/accordion'
+.text-box
+    &__wrap
+        text-align: center
+        +border-radius(16px)
+        background-color: $primary-1000
+        opacity: 0.8
+        border: 1px solid rgba(97, 52, 148, 0.2)
+        @extend %relative
+        
+        .compare__wrapper &
+            border: none
+            +border-radius(16px 0 16px 0)
+            
+        &.compare__wrap
+            +border-radius(16px)
+        +mobile     
+            padding: 40px 15px
+        +tablet 
+            padding: 60px 20px
+        +desktop-mini
+            padding: 70px 0
+        +laptop
+            padding: 85px 0
+        p 
+            margin: 0 auto
+            +desktop-mini
+                max-width: 65%
+            &:not(:last-of-type)
+                margin-bottom: 1.7rem
+    &__title
+        color: $text-900
+        margin-bottom: 1.3rem
+        @extend %semi-bold
+        +desktop-mini
+            margin-bottom: 25px
+        span
+            color: $primary-500
+.compare    
+    &__wrapper  
+        .row    
+            &:nth-of-type(1)
+                padding: 20px 0 50px
+                +tablet
+                    padding: 70px 0
+                +desktop-mini
+                    padding: 90px 0
+                +fullhd
+                     padding: 120px 0
+                .c-wrap
+                    &__content
+                        margin-top: 20px
+                        +tablet
+                            margin-top: 40px
+                        +desktop-mini
+                            margin: 0
+                        p:last-of-type 
+                            margin-bottom: 0
+                    &__img
+                        +desktop-max
+                            width: 60%
+                            margin: 0 auto
+                            padding: 0
+                        +mobile-sm-max
+                            width: 100%
+                    &__imgWrap
+                        figure
+                            margin: 0 20px
+            &:nth-of-type(3)
+                padding: 40px 0 10px
+                +tablet 
+                    padding: 70px 0 30px
+                +desktop-mini
+                    padding: 50px 0
+                +fullhd
+                    padding: 60px 0 120px
+                .c-wrap
+                    &__imgWrap
+                        text-align: right
+                        margin: -460px -28px 0 0
+                        +desktop-max
+                            display: none
+                    &__img  
+                        display: inline-block
+            
+            &:nth-of-type(6)
+                padding: 40px 0
+                +tablet
+                    padding: 70px 0
+                +desktop-mini
+                    padding: 90px 0
+                +fullhd
+                    padding: 120px 0
+            &:nth-of-type(7)
+                padding-bottom: 40px
+                +tablet
+                    padding-bottom: 70px
+                +desktop-mini
+                    padding-bottom: 90px
+                +fullhd
+                    padding-bottom: 120px
+        .c-wrap
+            &__title
+                @extend %semi-bold
+            &__img
+                @extend .sticky    
+                display: block
+                +desktop-max
+                    margin-bottom: 30px
+                    text-align: center
+                    padding: 0 10rem
+                +mobile
+                    padding: 0 2rem
+            &__content
+                // +desktop-max
+                //     text-align: center
+        .text-box
+            &__wrap
+                p   
+                    +desktop-mini
+                        max-width: 83%
+        dl
+            dd
+                line-height: 1.63rem
+            dt
+                @extend %medium
+                @extend .text-9
+                color: $primary-700
+                & + dd 
+                    padding-left: 0
+        .heading
+            margin: 0 15px 30px
+            +tablet
+                max-width: 80%
+                margin: 0 auto 40px
+            +desktop-mini
+                max-width: 60%
+                margin: 0 auto 70px
+            +fullhd
+                margin: 0 auto 110px
+            &__title
+                color: $primary-500
+                span    
+                    @extend %semi-bold
+    &__wrap
+        +mobile
+            margin: 0
+        .row
+            padding: 0 !important
+        .c-wrap
+            &__content
+                text-align: center
+                +desktop-mini
+                    text-align: left
+                    margin-left: 42.8%
+                    padding-right: 20px
+                +laptop
+                    margin-left: 42.7%
+                    padding-right: 0
+                p 
+                    margin-left: 0
+                    +desktop-mini
+                        max-width: 100%
+                    +laptop
+                        max-width: 88%
+.faq-compare
+    padding: 50px 0
+    +tablet
+        padding: 70px 0
+    +desktop-mini
+        padding: 90px 0
+    +fullhd
+        padding: 120px 0
+
+.all-comparisons
+    padding: 40px 0 10px
+    +tablet
+        padding: 70px 0 25px
+    +laptop
+        padding: 120px 0 60px
+.about
+    &-callhippo
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 15px
+            &:nth-of-type(6)
+                .c-wrap
+                    &__img
+                        img
+                            +laptop
+                                margin-left: 14px
+            &:nth-of-type(7)
+                .c-wrap
+                    &__img
+                        img
+                            +laptop
+                                margin-left: 60px
+                            +fullhd
+                                margin-left: 100px
+    &-AirCall
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 140px
+            &:nth-of-type(7)
+                .c-wrap
+                    &__img
+                        img
+                            +laptop
+                                margin-left: 18px        
+    &-CallPage
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-right: 30px
+            &:nth-of-type(6)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: -40px
+            &:nth-of-type(7)
+                .c-wrap
+                    &__img
+                        img
+                            +laptop
+                                margin-left: 70px
+                            +fullhd
+                                margin-left: 180px  
+    &-CloudTalk
+        .row
+            &:nth-of-type(6)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 35px  
+    &-DialPad 
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 28px
+            &:nth-of-type(6)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 30px
+            &:nth-of-type(7)
+                .c-wrap
+                    &__img
+                        img
+                            +laptop
+                                margin-left: 60px
+                            +fullhd
+                                margin-left: 120px  
+    &-JustCall 
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 90px
+            &:nth-of-type(7)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 140px  
+    &-OpenPhone
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-right: 35px
+            &:nth-of-type(6)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: -10px
+            &:nth-of-type(7)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-right: 37px 
+                    
+    &-SnapCall
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 100px
+            &:nth-of-type(6)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: -20px
+            &:nth-of-type(7)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-right: 70px 
+    &-TalkDesk
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 30px
+    &-Yodel
+        .row
+            &:nth-of-type(5)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 255px
+            &:nth-of-type(7)
+                .c-wrap
+                    &__img
+                        img
+                            +fullhd
+                                margin-left: 30px 

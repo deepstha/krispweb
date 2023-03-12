@@ -1,0 +1,43 @@
+{
+  "name": "codesandbox-frontity",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "prettier": {},
+  "dependencies": {
+    "@aamodtgroup/frontity-contact-form-7": "^0.2.14",
+    "@frontity/core": "^1.14.1",
+    "@frontity/hooks": "^2.2.2",
+    "@frontity/html2react": "^1.7.0",
+    "@frontity/tiny-router": "^1.4.2",
+    "@frontity/wp-source": "^1.11.5",
+    "@loadable/component": "^5.15.2",
+    "@lottiefiles/react-lottie-player": "^3.4.4",
+    "bootstrap": "^4.6.0",
+    "frontity": "^1.16.0",
+    "frontity-contact-form-7": "^0.1.7",
+    "krispcall": "./packages/krispcall",
+    "lottie-react-web": "^2.2.2",
+    "lottie-web": "^5.9.1",
+    "react-bootstrap": "^2.1.2",
+    "react-lottie": "^1.2.3",
+    "react-router-dom": "^6.3.0",
+    "react-select": "^5.2.2",
+    "react-slick": "^0.28.1",
+    "reactstrap": "^9.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.2"
+  }
+}

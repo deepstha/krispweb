@@ -1,0 +1,313 @@
+
+.press
+    &-media
+        padding: 40px 0
+        @extend %relative
+        +tablet
+            padding: 70px 0
+        +laptop
+            padding: 120px 0
+        &__content
+            .card
+                background-color: transparent
+                &__content
+                    &.bg-white
+                        background: $white-color
+                        +box-shadow(0px 2px 4px rgba(0, 0, 0, 0.25))
+                        +border-radius(12px)
+                &__img
+                    margin-bottom: 0
+            .tag-sm
+                @extend .bg-white
+            .text-cs
+                text-align: center
+                h6,p
+                    @extend .color-black-faded
+                h6
+                    @extend .text-8
+                    @extend .text-xtr-lt
+                    line-height: 2
+                    margin-bottom: 0
+                p
+                    @extend %head-font
+                    @extend %bold
+                    line-height: 1.5
+                    span
+                        @extend .text-small
+                        line-height: 2
+            [data-toggle="dropdown"]
+                &[aria-expanded="true"]
+                    background-color: $primary-color !important
+                    svg
+                        path
+                            stroke: #fff
+                            opacity: 1
+            .dropdown
+                &-menu
+                    +box-shadow(0px 0px 15px rgba(0, 0, 0, 0.1))
+                    +border-radius(12px)
+                    min-width: 118px
+                    padding: 7px 16px
+                    border: 0
+                    a
+                        @extend .text-small
+                        line-height: 1
+                        @extend %semi-bold
+                        @extend %head-font
+                        @extend .color-black-faded
+                        &:not(:last-of-type)
+                            border-bottom: 1px solid rgba(#000000, 0.1)
+                        &:not(:nth-of-type(2))
+                            padding: 7px 0
+                        &:nth-of-type(2)
+                            padding: 12px 0
+                        &.active,
+                        &:active
+                            background-color: $primary-color
+                            color: $white-color
+        &__heading
+            @extend .text-p500
+            @extend .text-smbold
+            font-size: 2.25rem
+            line-height: 1
+            margin-bottom: 1.25rem
+            +desktop-max
+                text-align: center
+        &__subheading
+            @extend .text-6
+            @extend %semi-bold
+            line-height: 1
+            color: $gray-dark
+            margin-bottom: 28px
+            +desktop-mini
+                margin-bottom: 3.75rem
+            +desktop-max
+                text-align: center
+        &__captionText
+            line-height: 2
+            @extend .text-small
+            @extend %semi-bold
+            @extend %body-font
+            margin-top: 11px
+            display: block
+            color: $black-color
+            opacity: 0.5
+            +fullhd
+                padding-left: 35px
+.press-kit
+    padding-bottom: 40px
+    +tablet
+        padding-bottom: 70px
+    +laptop
+        padding-bottom: 120px
+    &__press-release
+        .card
+            width: 100%
+            @extend %overflow
+            &__content
+                margin-top: 1rem
+                h6
+                    color: $primary-400
+                    @extend .text-bold
+                    margin-bottom: 0
+                    line-height: 1.5
+                span
+                    display: block
+                    line-height: 1.71
+                    @extend .color-black-faded
+                    &:first-of-type
+                        margin: 4px 0
+            &__img
+                height: 200px
+                +border-radius(12px)
+                background-color: rgba($primary-300,0.3)
+                img
+                    @extend %w-100
+                    @extend %h-100
+            &-grid__item
+                +mobile
+                    margin-bottom: 30px
+    &__newsletter
+        .card
+            padding: 34px
+            &.bg-light
+                background-color: #F2EDF6
+            &-grid
+                &__item
+                    +mobile
+                        margin-bottom: 20px
+            &__content
+                min-height: 130px
+                +flex-direction(column)
+                span
+                    display: block
+                    opacity: 0.5
+                    color: $black-color
+                    line-height: 2 !important
+                    @extend %semi-bold
+                    &:nth-of-type(1)
+                        @extend .text-8
+                    &:nth-of-type(2)
+                        @extend .text-small
+            &__img
+                &.bx-shadow
+                    +box-shadow(0px 10px 40px rgba(198, 198, 198, 0.22))
+                img
+                    width: 100%
+.media-kit
+    padding: 40px 0
+    +tablet
+        padding: 70px 0
+    +laptop
+        padding: 120px 0
+    +mobile-sm-max
+        background-color: rgba(#F8F6FA, 0.7)
+        margin: 0 -15px
+        padding: 40px 15px
+    &:after
+        @extend %content
+        @extend %absolute
+        width: 100%
+        background-color: rgba(#F8F6FA, 0.7)
+        bottom: 0
+        left: 0
+        z-index: -1
+        height: 74%
+        +desktop-mini
+            height: 75%
+        +fullhd
+            height: 72.7%
+        +mobile-sm-max
+            display: none
+    &__logos
+        .card
+            min-height: 200px
+            width: 100%
+            &-grid
+                &__item
+                    margin-bottom: 35px
+                    &:nth-of-type(3)
+                        .card
+                            background-color: $black-color
+                    &:nth-of-type(4)
+                        .card
+                            background-color: $primary-color
+            &__img
+                max-width: 231px
+                img
+                    width: 100%
+                &-icon
+                    max-height: 88px
+                    max-width: 88px
+                    +border-radius(14px)
+                    +box-shadow(0px 2px 4px rgba(0, 0, 0, 0.25))
+    &__color
+        .card
+            padding: 19px
+            &__content
+                height: 70px
+                width: 100%
+                +border-radius(12px)
+                +mobile-sm
+                    height: 150px
+            &-grid
+                &__item
+                    +mobile
+                        margin-bottom: 20px
+                    &:nth-of-type(1)
+                        .card__content
+                            background-color: $primary-color
+                    &:nth-of-type(2)
+                        .card__content
+                            background-color: $black-color
+                    &:nth-of-type(3)
+                        .card__content
+                            background-color: #F2EDF6
+
+                    &:nth-of-type(4)
+                        .card__content
+                            background-color: $white-color
+                    .input-group
+                        .icon-xs
+                            cursor: pointer
+    &__font 
+        +tablet
+            margin-bottom: 40px !important
+        .card
+            padding: 20px
+            &__content
+                +justify-content(flex-start)
+                .i-block
+                    &__content
+                        margin-left: 13px
+                        h6,span
+                            color: rgba($black-color,0.5)
+                        h6
+                            @extend .text-7
+                            margin-bottom: 3px
+                        span
+                            @extend .text-11
+                            @extend %head-font
+                .tag-sm
+                    +box-shadow(0px 5px 9px rgba(149, 149, 149, 0.18))
+                    &:last-of-type
+                        margin-left: auto
+                        height: 43px
+                        width: 43px
+            &-grid
+                &__item
+                    margin-bottom: 20px
+                    &:nth-of-type(8),
+                    &:last-of-type
+                        .i-block__content
+                            h6
+                                @extend %body-font
+    &__banners
+        +tablet
+            margin-bottom: 11px !important
+        .card
+            &-grid
+                &__item
+                    margin-bottom: 54px
+                    +desktop-mini
+                        margin-bottom: 84px
+            &__img
+                +border-radius(12px)
+                @extend %overflow
+                height: 160px
+                background-color: rgba($primary-300,0.3)
+                +laptop
+                    height: 200px
+                img
+                    @extend %w-100
+                    @extend %h-100
+                    object-fit: cover
+    &__print-materials
+        .press-kit__subheading
+            margin-bottom: 31px
+        .card
+            width: 100%
+            max-height: 200px
+            +desktop-max
+                margin: 0 auto
+            &-grid
+                @extend %display-flex
+                +justify-content(space-between)
+                &__item
+                    width: 100%
+                    +tablet
+                        width: 46%
+                    +fullhd
+                        min-width: 433px
+                    &:not(:last-of-type)
+                        +mobile
+                            margin-bottom: 20px
+.tooltip
+    cursor: pointer
+    .arrow:before
+        border-top-color: $text-700
+    &-inner
+        background: $text-700
+        color: $primary-50
+        padding: 4px 7px
+        @extend .text-9

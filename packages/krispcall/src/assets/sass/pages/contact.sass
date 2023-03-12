@@ -1,0 +1,249 @@
+@import '../base/_baseUtilities'
+@import '../layout/banner'
+@import '../layout/list'
+.contact
+    padding: 40px 0
+    +tablet
+        padding: 70px 0
+    +desktop-mini
+        padding: 90px 0
+    +fullhd
+        padding: 120px 0
+    .row
+        .col-xl-auto
+            +laptop
+                max-width: 64%
+                flex: 0 0 64%
+    &-heading
+        margin-bottom: 20px
+        +desktop-mini
+            margin-bottom: 60px
+        h4
+            line-height: 1.36
+            margin-bottom: 12px
+            color: $text-900
+        p
+            line-height: 1.5
+            color: $text-800
+    &__form
+        padding: 20px 0 50px
+        +desktop-mini
+            padding: 20px 0
+        +laptop
+            padding: 5px 30px 0 0
+        [class*='form-']
+            &:not(:last-of-type):not(:first-of-type)
+                margin-bottom: 15px
+        .form
+            &-row
+                +desktop-mini
+                    margin: 0 -17px
+                [class*='col-']  
+                    +mobile-sm-max
+                        max-width: 100%
+                        flex: 0 0 100%
+                    +desktop-mini
+                        padding: 0 17px
+                    &:not(:last-of-type)
+                        +mobile-sm-max
+                            margin-bottom: 20px
+            
+            &-reminder
+                input[type="radio"]
+                    display: none
+                label
+                    @extend .text-11
+                    line-height: 1.86
+                    margin-bottom: 0
+                    color: $gray-default
+                    a
+                        color: #1A63F4
+                p 
+                    a 
+                        color: #1A63F4
+            &-action
+                margin-top: 20px
+                +tablet
+                    margin-top: 40px
+                +laptop
+                    margin-top: 50px
+    &-support
+        padding: 40px 0
+        +tablet
+            padding: 70px 0
+        +desktop-mini
+            padding: 90px 0
+        +fullhd
+            padding: 120px 0
+        .row
+            .col-xl-auto
+                +laptop
+                    max-width: 66%
+                    flex: 0 0 66%
+        &__content
+            +desktop-mini
+                padding-right: 90px
+            p
+                &:last-of-type
+                    margin-bottom: 27px
+                    +desktop-mini
+                        margin-bottom: 0
+            ul
+                @extend .list-icon
+                @extend .list-icon--primarydisc
+        
+        .card
+            background: rgba($primary-color, 0.05)
+            +flex-direction(row)
+            +align-items(center)
+            padding: 15px 20px
+            +fullhd
+                padding: 15px 30px
+            &:not(:last-of-type)
+                margin-bottom: 30px
+            &__img
+                padding-right: 15px
+                +mobile-sm-max
+                    padding-right: 20px
+                figure
+                    width: 36px
+                    height: 36px
+            &__content
+                border-left: 1px solid $text-300
+                padding-lefT: 24px
+                +mobile-sm
+                    padding-left: 40px
+                h5
+                    color: $primary-color
+                    margin-bottom: 5px
+                p
+                    color: rgba($text-900, 0.5)
+            &-link 
+                cursor: pointer
+                +transition(all 0.3s ease)
+                &:hover
+                    background: rgba($primary-color, 0.2)
+                    border-color: rgba($primary-color, 0.2)
+                & + .card-link
+                    margin-left: 0
+        .contact-info
+            +flex-direction(column)
+            +align-items(flex-start)
+            padding: 20px
+            +tablet
+                padding: 30px 
+            +desktop-mini
+                padding: 30px 22px
+            +laptop
+                padding: 30px 22px
+            +fullhd
+                padding: 60px 30px
+            .contact-list
+                a
+                    color: #1A63F4
+    &-ticket
+        display: none
+        padding: 50px 0 0
+        +tablet
+            padding: 70px 0 0
+        +desktop-mini
+            padding: 90px 0
+        +fullhd
+            padding: 120px 0
+        .form-action
+            button
+                margin-bottom: 30px
+    &-convo
+        .row
+            &:nth-of-type(1)
+                color: $text-900
+                padding-bottom: 50px
+                +desktop-mini
+                    padding-bottom: 60px
+                +fullhd
+                    padding-bottom: 93px
+            &:nth-of-type(2)
+                .col-xl-auto
+                    +desktop-max
+                        padding-bottom: 30px
+                    +laptop
+                        padding: 0 45px 0 15px
+    &-newsletter
+        .form-block
+            p
+                margin: 30px 0
+                +desktop-mini
+                    margin: 35px 0 60px
+                +fullhd
+                    margin: 35px 0 54px
+.contact-info
+    background-color: rgba($primary-100, 0.1)
+    border: 1px solid rgba(0, 0, 0, 0.1)
+    +border-radius(10px)
+    padding: 30px
+    +desktop-mini
+        padding: 60px 60px 77px
+    h3  
+        color: $text-900
+        @extend %uppercase
+        @extend %bold
+        @extend %body-font
+        margin-bottom: 15px
+        line-height: 1.25
+        .contact-support &
+            margin-bottom: 20px
+            +tablet
+                margin-bottom: 30px
+        
+
+    .contact-list
+        padding-left: 0
+        margin: 0
+        a
+            color: $text-700
+        li
+            &:not(:last-of-type)
+                padding-bottom: 17px
+            span   
+                padding-right: 13px
+                & + span
+                    padding: 0
+    &__top
+        p 
+            margin-bottom: 30px
+            padding-bottom: 30px
+            border-bottom: 1px solid $text-200
+            a 
+                color: $info-default    
+        h3
+            margin-bottom: 30px
+        .contact-list
+            margin-bottom: 30px
+
+.cn-arrow
+    @extend %relative
+    border: 2px solid #B39ECB
+    border-width: 2px 0 2px 0
+    &:before,
+    &:after
+        @extend %content
+        @extend %absolute
+        right: 28%
+        left: auto
+        +transition(all 1s ease)
+    &:before
+        +caret(up, 40px, 20px, #B39ECB)
+        top: -20px 
+        +desktop-mini
+            +caret(up, 50px, 25px, #B39ECB)
+            top: -25px
+    &:after
+        +caret(up, 34px, 17px, $white-color)
+        top: -17px
+        right: 28.5%
+        +desktop-mini
+            +caret(up, 44px, 22px, $white-color)
+            top: -22px
+            right: 28.15%
+
+  

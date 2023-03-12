@@ -1,0 +1,48 @@
+.two-col
+    +align-items(center)
+    height: 100%
+    .about &
+        padding: 40px 0
+        +tablet
+            padding: 70px 0
+        +desktop-mini
+            padding: 95px 0
+        +fullhd
+            padding: 120px 0
+    &__content
+        +mobile
+            margin-bottom: 30px
+            text-align: center
+        .phone-system &
+            max-width: 560px
+        h2
+            line-height: 1.35
+            &.text-smbold 
+                @extend .text-smbold
+        p
+            margin: 16px 0 20px
+            +desktop-mini
+                margin-bottom: 30px
+        .btn
+            @extend %body-font
+            @extend %medium
+    &__img
+        text-align: right
+        &.two-col__img--hasprops
+            @extend %relative
+            &:before
+                @extend %content
+                @extend %absolute
+                height: 14.48vw
+                width: 14.48vw
+                top: 99px
+                +gradient(180deg, #F5F2F8 0%, rgba(245, 242, 248, 0) 100%)
+                +border-radius(50%)
+                +transform(rotate(105deg))
+                z-index: -1
+                right: 0
+                +fullhd
+                    right: -22px
+    &__desc
+        @extend .text-10
+        color: $gray-default

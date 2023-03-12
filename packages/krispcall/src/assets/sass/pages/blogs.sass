@@ -1,0 +1,324 @@
+@import '../base/_baseUtilities'
+.blog
+    &-featured
+        padding: 40px 0
+        +laptop
+            padding: 80px 0 40px
+        +fullhd
+            padding: 130px 0 40px
+        figure 
+            img
+                +border-radius(15px)
+                object-position: left
+                +desktop-mini   
+                    +border-radius(20px 0 0 20px)
+        &__info
+            +desktop-max 
+                padding-top: 20px
+            h5
+                margin: 15px 0 20px
+                line-height: 1.5
+                font-family: Heebo
+                color: $primary-900
+                font-size: 1.4rem
+                +tablet
+                    font-size: 1.75rem
+                a
+                    color: inherit
+                    &:hover
+                        color: $primary-color
+            p
+                margin-bottom: 30px
+                line-height: 1.78
+    &-list
+        padding: 0 0 40px
+        +tablet
+            padding: 40px 0 70px
+        +desktop-mini
+            padding-bottom: 120px
+        .sticky
+            top: 120px
+            padding-bottom: 40px
+            +desktop-mini
+                padding: 63px 0 0
+        h6
+            margin-bottom: 40px
+        &__item
+            margin-bottom: 30px
+            +tablet
+                margin-bottom: 40px
+            +laptop
+                margin-bottom: 60px
+                padding-right: 35px
+                .row
+                    +align-items(center)
+            .col-sm-5
+                max-width: 34.667%
+                -ms-flex: 0 0 34.667%
+                flex: 0 0 34.667%
+                +tablet-sm-max
+                    max-width: 100%
+                    -ms-flex: 0 0 100%
+                    flex: 0 0 100%
+            .col-sm-7
+                max-width: 64.666667%
+                -ms-flex: 0 0 64.666667%
+                flex: 0 0 64.666667%
+                +tablet-sm-max
+                    max-width: 100%
+                    -ms-flex: 0 0 100%
+                    flex: 0 0 100%
+            h5
+                color: $primary-900
+                line-height: 1.4
+                margin: 10px 0
+                +laptop
+                    margin: 15px 0
+                a
+                    color: inherit
+                    &:hover
+                        color: $primary-color
+            &__content
+                +tablet-sm-max
+                    margin-top: 18px
+                +desktop-mini
+                   max-width:  500px
+                   padding-right: 24px
+                +fullhd
+                   padding: 0 0 0 24px
+                p
+                    margin: 0
+                
+            figure
+                max-height: 200px
+                max-width: 378px
+                margin-right: -3px
+                overflow: hidden
+                height: 200px
+                +tablet-sm-max
+                    margin-right: 0
+                    max-width: 100%
+                img
+                    border-radius: 10px 0 0 10px
+                    object-fit: cover
+                    object-position: left
+                    height: 100%
+                    width: 100%
+                    +tablet-sm-max
+                        +border-radius(8px)
+    &-search
+        margin: 0 0 25px
+        +desktop-mini
+            margin: 0 0 40px
+        input
+            border-radius: 8px
+    &-writer
+        margin-bottom: 40px
+        background: #F5F2F8
+        border-radius: 4px  
+        padding: 25px 18px
+        +mobile-sm
+            padding: 28px
+        +tablet
+            padding: 60px 40px 60px 47px
+        +laptop
+            margin-bottom: 60px
+            margin-right: 35px 
+        &__wrap
+            @extend .text-center
+            +mobile
+                margin-bottom: 30px
+            h5
+                margin-bottom: 24px
+                color: #000000
+        &__info
+            +mobile
+                +display-flex
+                +align-items(center)
+            figure
+                max-width: 110px
+                max-height: 110px
+                margin-left: auto
+                margin-right: auto
+                +tablet
+                    margin-bottom: 24px
+                +mobile-sm-max
+                    min-height: 60px
+                    min-width: 60px
+                
+            &-content
+                margin-left: 15px
+                span
+                    margin-bottom: 8px
+                    color: #000000
+                    line-height: 14px
+                a
+                    color: #000000
+                    line-height: 1
+                    word-break: break-all
+        &__socials
+            margin-top: 12px
+            +justify-content(center)
+            +mobile-sm
+                margin-top: 20px
+            a
+                &:not(:last-of-type)
+                    margin-right: 15px
+        &__item
+            +mobile-sm-max
+                +flex-wrap(wrap)
+                +flex-direction(column-reverse)
+            &:not(:last-of-type)
+                margin-bottom: 30px
+            span
+                line-height: 1
+                display: block
+                margin-bottom: 6px
+            h6
+                color: #465868
+                line-height: 1.5
+                margin: 0
+                padding-right: 15px
+                +tablet
+                    padding-right: 30px
+                &:hover
+                    a 
+                        color: $primary-color
+                a
+                    color: #465868
+                    &:hover
+                        color: $primary-color
+
+            figure
+                margin-bottom: 18px
+                min-width: 100%
+                +border-radius(4px)
+                overflow: hidden
+                +mobile-sm-max
+                    height: 200px
+                    width: 100%
+                img 
+                    width: 100%
+                    height: 100%
+                    object-position: left
+                +mobile-sm
+                    min-width: 152px
+                    margin: 0
+                    height: 80px
+                    width: 152px
+                    img
+                        object-fit: cover
+                        +border-radius(4px)
+    &-post
+        h5
+            margin-bottom: 20px
+            line-height: 1
+        &__item
+            +tablet-sm-max
+                +flex-direction(column)
+            &:not(:last-of-type)
+                margin-bottom: 30px
+            figure
+                margin: 0
+                min-width: 135px
+                margin-right: 20px
+                height: 71px
+                width: 135px
+                +tablet-sm-max
+                    margin: 0 0 18px !important
+                    height: 200px
+                    min-width: 100%
+                img
+                    object-fit: cover
+                    border-radius: 8px
+                    height: 100%
+                    object-position: left
+                    +tablet-sm-max
+                        width: 100%
+            h6
+                margin-bottom: 5px
+                line-height: 1.4
+                color: $primary-900
+                a
+                    color: $primary-900
+                    &:hover
+                        color: $primary-color
+
+.blog-inner
+    .inner-wrapper
+        max-width: 100%
+        +desktop-mini
+            padding: 0 30px
+        +fullhd
+            padding: 0 85px
+        figure
+            margin: 30px 0
+            +desktop-mini
+                margin: 60px 0
+        figure.featured-image
+            margin-top: 0
+            margin-bottom: 30px
+            +desktop-mini
+                margin-top: 0
+                margin-bottom: 60px
+            +laptop
+                margin-bottom: 100px           
+.dot
+    padding-left: 16px
+    @extend %relative
+    @extend .item-center
+    margin-left: 12px
+    &:before
+        @extend %content
+        @extend %absolute
+        height: 4px
+        width: 4px
+        background-color: #909BA4
+        left: 0
+        +border-radius(50%)
+blockquote
+    font-family: Heebo !important
+    font-size: 1.5rem
+    background-color: #F5F2F8
+    border-left: 2.5px solid #5C2F8F
+    padding: 24px 20px
+    margin: 0 0 30px !important
+    font-style: initial
+    font-weight: 500 !important
+    +tablet
+        padding: 37px 41px 24px 50px
+    p
+        line-height: 1.38 !important
+
+.top-post-info
+    .dot
+        +desktop-mini 
+            padding-left: 8px
+            margin-left: 7px
+        +laptop
+            padding-left: 16px
+            margin-left: 12px
+
+//table of contents
+
+#ez-toc-container
+    .ez-toc-title-container
+        margin-bottom: 15px
+    ul
+        li
+            a
+                padding-bottom: 10px
+                display: inline-block
+            ul 
+                li
+                    a
+                        padding-bottom: 5px
+                    &:last-of-type 
+                        a
+                            padding-bottom: 10px
+            &:last-of-type
+                a 
+                    padding-bottom: 0
+                li
+                    a
+                        padding-bottom: 5px

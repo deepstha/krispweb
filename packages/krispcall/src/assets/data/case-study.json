@@ -1,0 +1,140 @@
+[
+    {
+        "thumbnail" : "outinvoice",
+        "featured-img" : "outinvoice",
+        "logo" : "outinvoice",
+        "color" : "rgba(62, 181, 62, 0.1)",
+        "title" : "How KrispCall help Outinvoice for lower costs, & managing small remote teams",
+        "link" : "outinvoice",
+        "content" : [
+            {
+                "subtitle" : "How did Outinvoice leverage KrispCall’s advanced features?",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Sit nulla amet, sit ut ullamcorper euismod amet pulvinar. Eu nam mattis interdum nisi, eget mauris etiam quis velit. Sit etiam nec dignissim gravida a sollicitudin auctor in turpis. Velit, habitant quam risus habitant. Proin urna, egestas ut amet risus vulputate at fringilla. Enim risus dignissim pellentesque facilisis dui non.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Sit nulla amet, sit ut ullamcorper euismod amet pulvinar. Eu nam mattis interdum nisi, eget mauris etiam quis velit. Sit etiam nec dignissim gravida a sollicitudin auctor in turpis. Velit, habitant quam risus habitant. Proin urna, egestas ut amet risus vulputate at fringilla. Enim risus dignissim pellentesque facilisis dui non."],
+                "img" : "outinvoice"
+            },
+            {
+                "subtitle" : "Which challenges did Outinvoice overcome through KrispCall?",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel."],
+                "list" : [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ]
+            },
+            {
+                "subtitle" : "Solutions offered",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel."],
+                "list" : [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ]
+            },
+            {
+                "subtitle" : "Summary",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel."]
+            }
+        ]
+
+    },
+    {
+        "thumbnail" : "fenced",
+        "featured-img" : "fenced",
+        "logo" : "fenced",
+        "color" : "rgba(255, 152, 119, 0.15)",
+        "title" : "How KrispCall help fenced.ai for lower costs, & managing small remote teams",
+        "link" : "fenced",
+        "content" : [
+            {
+                "subtitle" : "How did Fenced.ai leverage KrispCall’s advanced features?",
+                "desc" : ["A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with."]
+            },
+            {
+                "subtitle" : "Which challenges did Fenced.ai overcome through KrispCall?",
+                "desc" : ["The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.",
+                "Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar."]
+            },
+            {
+                "subtitle" : "Solutions offered",
+                "desc" : ["Artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of 'intelligent agents': any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.[3] Colloquially, the term 'artificial intelligence' is often used to describe machines (or computers) that mimic 'cognitive functions that humans associate with the human mind, such as 'learning and 'problem solving."],
+                "list" : [
+                    "Krispcall first calls up the relevant vendor. The vendor can either choose to reject or accept the call. If the vendor accepts the call, they can talk to the client.",
+                    "After buyer finishes talking to vendor 1, Quikr checks with them if they’d like to speak to more vendors. If the buyer says yes, Exotel connects them to 4-5 more relevant vendors.",
+                    "Since the calls are connected via Krispcall, the buyer can speak to as many vendors as they’d like to without revealing their phone number."
+                ]
+            },
+            {
+                "subtitle" : "Summary",
+                "desc" : ["The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.",
+                "To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the. Artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals. "]
+            }
+        ]
+
+    },
+    {
+        "thumbnail" : "examselect",
+        "featured-img" : "examselect",
+        "logo" : "examselect",
+        "color" : "rgba(235, 247, 235, 1)",
+        "title" : "How KrispCall help Examselect for lower costs, & managing small remote teams",
+        "link" : "examselect",
+        "content" : [
+            {
+                "subtitle" : "How did Examselect leverage KrispCall’s advanced features?",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Sit nulla amet, sit ut ullamcorper euismod amet pulvinar. Eu nam mattis interdum nisi, eget mauris etiam quis velit. Sit etiam nec dignissim gravida a sollicitudin auctor in turpis. Velit, habitant quam risus habitant. Proin urna, egestas ut amet risus vulputate at fringilla. Enim risus dignissim pellentesque facilisis dui non."]
+            },
+            {
+                "subtitle" : "Which challenges did Examselect overcome through KrispCall?",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel."],
+                "list" : [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ]
+            },
+            {
+                "subtitle" : "Solutions offered",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel."],
+                "list" : [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ]
+            },
+            {
+                "subtitle" : "Summary",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel."]
+            }
+        ]
+
+    },
+    {
+        "thumbnail" : "timetracko",
+        "featured-img" : "timetracko",
+        "logo" : "timetracko",
+        "color" : "rgba(99, 88, 224, 0.15)",
+        "title" : "How KrispCall help timeTracko for lower costs, & managing small remote teams",
+        "link" : "timetracko",
+        "content" : [
+            {
+                "subtitle" : "How did timeTracko leverage KrispCall’s advanced features?",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Sit nulla amet, sit ut ullamcorper euismod amet pulvinar. Eu nam mattis interdum nisi, eget mauris etiam quis velit. Sit etiam nec dignissim gravida a sollicitudin auctor in turpis. Velit, habitant quam risus habitant. Proin urna, egestas ut amet risus vulputate at fringilla. Enim risus dignissim pellentesque facilisis dui non."]
+            },
+            {
+                "subtitle" : "Which challenges did timeTracko overcome through KrispCall?",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel."],
+                "list" : [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ]
+            },
+            {
+                "subtitle" : "Summary",
+                "desc" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel. Etiam diam est vitae arcu pharetra pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet lorem mauris, tortor tortor porta arcu vel."]
+            }
+        ]
+
+    }
+]

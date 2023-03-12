@@ -1,0 +1,272 @@
+@import '../base/base'
+.header
+    @extend %display-flex
+    @extend %w-100
+    +align-items(center)
+    position: fixed
+    top: 0
+    z-index: 100
+    background-color: $white-color
+    @include cubic
+    &.sticky
+        &-header
+            @include box-shadow(0 0 24px rgba($black-color, 0.05))
+            .navbar
+                height: 50px
+                @include desktop-mini
+                    height: 65px
+                @include fullhd
+                    height: 80px
+    .navbar
+        padding: 0
+        height: 60px
+        @include transition(.2s ease)
+        @include desktop-mini
+            height: 80px
+        @include fullhd
+            height: 100px
+        &-expand-lg
+            @include justify-content(space-between)
+        &.ol:before
+            content: ' '
+            height: 100vh
+            width: 100vw
+            position: fixed
+            top: 0
+            left: 0
+            right: 0
+            background: rgba(0,0,0,0.5)
+            animation: fade .6s 
+            @include desktop-mini
+                display: none
+        &-nav
+            @extend %w-100
+            @extend %h-100
+            @extend %display-flex
+            @include justify-content(flex-start)
+            @include desktop-max
+                height: auto
+            .dropdown-menu--colapse
+                ul
+                    padding-left: 12px
+                    margin: 10px 0
+                @include desktop-mini
+                    display: none
+                .nav-item
+                    &:last-of-type
+                        border-bottom: none
+                a
+                    &.btn
+                        margin: 0 auto 16px
+                    &.link-arrow
+                        display: block
+                        margin-bottom: 12px
+                        margin-left: 44px
+                &#cloud-phone
+                    a.link-arrow
+                        margin-left: 33px
+                &#phone-numbers,
+                &#call-widget
+                    a.link-arrow
+                        margin-left: 60px
+        .menu
+            &-list
+                @extend %h-100
+                @include desktop-max
+                    overflow-y: auto
+                    overflow-x: hidden
+                    height: 90vh
+                    padding-bottom: 20px
+                @include desktop-mini
+                    @include display-flex
+                    width: 100%
+                    @include align-items(center)
+                    margin-left: 40px
+                @include laptop
+                    margin-left: 5.6rem
+                @include fullhd
+                    margin-left: 8.4375rem
+                &::-webkit-scrollbar
+                    @include desktop-max
+                        width: 0
+                .nav
+                    &-item
+                        @extend %display-flex
+                        @include flex-direction(column)
+                        @include desktop-max
+                            //margin-bottom: 10px
+                            border-bottom: 1px solid $text-100
+                            @include desktop
+                                margin-bottom: 30px
+                        @include desktop-mini
+                            margin-bottom: 0
+                            border: none
+                            @include align-items(center)
+                            @include flex-direction(row)
+                            @include transition(all .3s)
+                    &-link
+                        color: $text-600
+                        padding: 13px 1.2rem
+                        @extend .display-inline-flex
+                        @include justify-content(space-between)
+                        line-height: 1
+                        font-size: 1rem
+                        @extend %head-font
+                        @extend %semi-bold
+                        @include desktop-max
+                            padding-left: 0
+                            padding-right: 0
+                        @include desktop-mini
+                            padding: 0.78rem 0.6rem
+                            line-height: 1.5
+                            height: 100%
+                            @include align-items(center)
+                        @include laptop 
+                            padding: 0.78rem 0.9375rem
+                        .arrow-down
+                            margin-left: 4px
+                            @extend .item-center
+                            @include desktop-max
+                                min-width: 16px
+                            &:after
+                                top: 40%
+                                @include desktop-max
+                                    @include transform(rotate(140deg))
+                                @include desktop-mini
+                                    top: -2px
+                                    left: 3.5px
+                                    @include angle(down, 4.5px, 4.5px, 1px, $text-600)
+                                @include fullhd
+                                    left: 5px
+                                    @include angle(down, 5.4px, 5.4px, 1px, $text-600)
+                        &[aria-expanded="true"]
+                            .arrow-down
+                                &:after
+                                    @include desktop-max
+                                        @include transform(rotate(225deg))
+                .list-inline
+                    margin-top: 12px
+                    @extend %display-flex
+                    padding-left: 0
+                    @include desktop-mini
+                        margin-top: 0
+                    @include desktop-max
+                        @include justify-content(space-between)
+                    @include mobile-sm-max
+                        @include flex-direction(column)
+                    &-item
+                        @extend .item-center
+                        width: 100%
+                        @extend %medium
+                        margin-bottom: 12px
+                        @include mobile-sm
+                            margin-bottom: 0
+                            width: 48%
+                        @include desktop-mini
+                            width: auto
+                        &:not(:last-of-type)
+                            margin-right: 0
+                        .btn
+                            min-height: 2.75rem
+                            padding: 12px 19px
+                            @extend %w-100
+                            @include box-shadow(none)
+                            @include desktop-mini
+                                min-width: 8rem
+                            &-link
+                                color: $text-800
+                                @extend %head-font
+                                @extend %semi-bold
+                                border: 1px solid $primary-color
+                                min-width: 6.2rem
+                                padding: 0 0.3125rem
+                                &:hover
+                                    text-decoration: none
+                                    color: $primary-600
+                                @include desktop-mini
+                                    border: none
+                                    line-height: 1.5
+        &-toggler
+            padding: 0
+            @extend %relative
+            .hb-icon
+                width: 20px
+                height: 15px
+                span
+                    height: 2px
+                    width: 100%
+                    background: $text-900
+                    display: block
+                    left: 0
+                    @include border-radius(5px)
+                    @extend %absolute
+                    @include transform(rotate(0deg))
+                    @include transform-origin(left center)
+                    @include transition(all .3s ease-in-out)
+                    &:nth-of-type(2)
+                        width: 70%
+                        margin-left: auto
+                        top: 6.5px
+                    &:nth-of-type(1)
+                        top: 0
+                    &:nth-of-type(3)
+                        top: 13px
+            &[aria-expanded="true"]
+                .hb-icon
+                    span
+                        &:nth-of-type(1)
+                            @include transform(rotate(45deg))
+                            top: 0px
+                            left: 2px
+                        &:nth-of-type(2)
+                            width: 0%
+                            opacity: 0
+                        &:nth-of-type(3)
+                            @include transform(rotate(-45deg))
+                            top: 14px
+                            left: 2px
+        &-collapse
+            @extend %h-100
+            .navbar-brand
+                @include desktop-max
+                    margin-bottom: 32px
+            @include desktop-max
+                background-color: rgba($white-color, 1)
+                padding: 20px 15px 25px
+                color: $white-color
+                position: fixed
+                top: 0
+                left: 0
+                width: 420px
+                height: 100vh
+                display: block
+                @include transition(all 0.3s ease)
+                @include transform(translateX(-100%))
+            @include mobile-sm-max
+                width: 80%
+            &.show
+                @include desktop-max
+                    @include box-shadow(20px 25px 20px rgba($black-color, 0.05))
+            @include mobile-sm-max
+                width: 85%
+            &.collapsing
+                @include desktop-max
+                    height: 100vh !important
+                    @include transition(all 0.3s ease)
+            &.show
+                @include desktop-max
+                    @include transform(translateX(0))
+        &-brand
+            font-size: 0
+            padding: 0
+            width: 8rem
+            @include desktop-mini
+                width: 8.4375rem
+
+.theme-wrapper
+    &.hover
+        &::after
+            z-index: 5
+            background-color: rgba($black-color , 0.5)
+
+@import './megamenu'

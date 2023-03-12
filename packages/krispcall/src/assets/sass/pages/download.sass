@@ -1,0 +1,211 @@
+@import '../base/base'
+@import '../components/buttons'
+.hero
+    &-download
+        padding: 40px 0 
+        overflow-x: hidden
+        +tablet
+            padding: 50px 0 70px
+        +desktop-mini   
+            padding: 90px 0 
+        +fullhd
+            padding: 120px 0
+        [class*='col-']
+            &:first-of-type
+                +desktop-max
+                    order: 1
+        &.hero-overlay
+            &:before
+                height: 100%
+        &:after
+            @extend %content
+            @extend %absolute
+            height: 100%
+            width: 52%
+            right: 0
+            top: 0
+            background: linear-gradient(90deg, rgba(250, 249, 252, 0) 36.59%, rgba(249, 247, 251, 0.493047) 58.57%, #F8F5FA 86.12%)
+            +desktop-max
+                display: none
+        &__content
+            +desktop-max
+                text-align: center
+            +desktop-mini
+                max-width: 590px
+            h1
+                margin-bottom: 1.1rem
+                line-height: 1.4
+                color: $text-700
+                span
+                    display: inline-block
+            p
+                @extend .text-9
+                line-height: 1.4
+                color: $text-600
+                margin: 0
+                +desktop-mini
+                    margin: 0 29px 0 0
+                
+            .options-wrap
+                margin : 30px 0 20px
+                padding-left: 0
+                @extend %display-flex
+                +mobile-sm-max
+                    +flex-direction(column)
+                +desktop-max
+                    +justify-content(center)
+                    margin: 20px 0 16px
+                +fullhd
+                    margin: 60px 0 40px
+                li
+                    background-color: $white-color
+                    &:nth-of-type(2) 
+                        .i-block
+                            +mobile-sm
+                                border-left: 0
+                                border-right: 0
+                            +mobile-sm-max
+                                border-top: 0
+                                border-bottom: 0
+                    &:nth-of-type(3)
+                        .i-block
+                            +fullhd
+                                padding-right: 23px
+                .i-block
+                    padding: 16px 14px
+                    border: 1px solid #CFCCD5
+                    +mobile-sm-max
+                        +justify-content(center)
+                    +desktop-mini
+                        padding: 20px 13px
+                    +fullhd
+                        padding: 22px 19px
+                    &__img
+                        min-height: 38px
+                        margin-bottom: 0
+                        margin-right: 16px
+                    &__content
+                        span    
+                            text-align: left
+                            &:first-of-type
+                                @extend %semi-bold
+                                @extend %head-font
+                                color: $text-900
+                                line-height: 1
+                                margin-bottom: 6px
+                            &:nth-of-type(2)
+                                color: $text-600
+                                @extend .text-11
+                                line-height: 1
+            .img-flex
+                span
+                    line-height: 1
+                    margin-bottom: 12px
+                    color: $text-400
+                ul
+                    @extend %display-flex
+                    padding-left: 0
+                    +desktop-max
+                        +justify-content(center)
+                    li
+                        &:not(:last-of-type)
+                            margin-right: 12px
+                        figure
+                            margin: 0
+            .btn-wrap
+                margin-top: 50px
+                @extend .display-flex
+                +justify-content(flex-start)
+                +mobile-sm-max
+                    +flex-direction(column)
+                +desktop-max
+                    +justify-content(center)  
+                    margin-top: 30px 
+                +laptop
+                    margin-top: 4.4375rem
+                .btn 
+                    padding: 25px 44px 25px 26px
+                    @extend %w-100
+                    figure
+                        margin: 0
+                .i-block
+                    border: 1px solid rgba(0, 0, 0, 0.1)
+                    padding: 13px 19px
+                    +border-radius(10px)
+                    margin-top: 22px
+                    &.triangle
+                        &:before
+                            top: -8px
+                            bottom: auto
+                            left: 48%
+                            width: 14x
+                            height: 14px
+                            background-color: $white-color
+                    &__img
+                        img
+                            height: 50px
+                            width: 50px
+                            max-width: 50px
+                    &__content
+                        span
+                            @extend .text-small
+                            margin-left: 0.5rem
+                            line-height: 1.25
+                            text-align: left
+                & > div
+                    +mobile-sm
+                        max-width: 240px
+                    & + div
+                        margin-left: 20px
+                        +mobile-sm-max
+                            margin-top: 16px
+                        +fullhd
+                            margin-left: 40px
+                        +mobile-sm-max 
+                            margin-left: 0
+        &__img
+            @extend %relative
+            +desktop-max
+                margin-bottom: 0
+            .mobile
+                display: block
+                +desktop-mini
+                    display: none
+                +desktop-max  
+                    +transform(scale(1.22))
+            .props-area
+                +desktop-max
+                    display: none
+            .main-image
+                margin-bottom: 0
+                @extend %relative
+                width: 100%
+                display: block
+                +desktop-mini
+                    min-width: 760px
+                    top: 31px
+                    right: 77px
+                +laptop
+                    min-width: 1200px
+            .props-area
+                figure
+                    &:nth-of-type(1)
+                        top: 47px
+                        left: 17%
+                        +laptop
+                            left: 21%
+                        img
+                            +desktop-mini
+                                width: 85%
+                            +laptop
+                                width: 100%
+                    &:nth-of-type(2)
+                        top: 185px
+                        left: 27%
+                        +laptop
+                            left: 35%
+                        img
+                            +desktop-mini
+                                width: 85%
+                            +laptop
+                                width: 100%

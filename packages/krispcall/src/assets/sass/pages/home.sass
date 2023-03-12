@@ -1,0 +1,62 @@
+@import '../base/_baseUtilities'
+@import '../layout/two-col'
+@import '../layout/phone-system'
+@import '../layout/integration'
+@import '../layout/feature'
+@import '../Components/heading'
+.lottie
+    .nations &
+        max-width: 37rem
+        margin-right: 2rem
+        height: 300px
+        overflow: hidden
+        +desktop-mini
+            height: auto
+        padding-top: .5rem
+.two-col__content
+    .nations &
+        +tablet 
+            padding: 52px 0
+        +desktop-mini
+            padding: 116px 0
+        +laptop
+            padding: 137px 0
+        h2
+            // color: rgba($white-color,0.8)
+.btmFloat
+    +mobile
+        position: relative
+        bottom: 0
+        width: 85%
+        margin: auto
+        left: 0
+        transform: none
+    .card
+        .nations &
+            min-width: 100%
+            +border-radius(.375rem)
+            +tablet
+                min-width: 590px
+            padding: 1.5rem
+            +desktop-mini
+                min-width: 904px
+                padding: 2.5rem 2.5rem 2.1rem 2.5rem
+        .col-fixed-width
+            .nations &
+                +mobile
+                    margin-bottom: 10px
+        .col-auto
+            .nations &
+                +desktop-max
+                    margin-top: 15px
+                    width: 100%
+            .btn
+                .nations &
+                    +desktop-max
+                        width: 100%
+
+.nations
+    padding: 40px 0 !important
+    min-height: 517px
+    +desktop-mini
+        padding: 8px !important

@@ -1,0 +1,659 @@
+.hero
+    &-panel
+        height: auto
+        position: relative
+        +bg-gradient(180deg, $primary-100, 0%, $primary-100-gradient, 100%)
+        &__section
+            @extend .text-center
+        &__content
+            padding: 2.67rem 0 1.8rem
+            max-width: 40.3125rem
+            margin: 0 auto
+            +tablet
+                padding: 3rem 0 2.2rem
+            +fullhd
+                padding: 3.8125rem 0
+            h1, .text-1
+                @extend .text-regular
+                line-height: 1.4
+                color: $text-700
+                font-size: 2rem
+                +fullhd
+                    font-size: 2.5rem
+                .hero-home & 
+                    font-size: 2rem
+                    +desktop-mini 
+                        font-size: 2.5rem
+                    +fullhd 
+                        font-size: 3rem 
+
+            p
+                font-size: 1.125rem
+                line-height: 1.4
+                @extend %head-font
+                color: $text-600
+                margin: 1.1rem 0 0 0
+                +fullhd
+                    margin: 1.2rem 0 0 0
+                .hero-home &
+                    margin: 1.25rem 0 1.6875rem 0 
+                    +fullhd
+                        margin: 1.6875rem 0 
+
+
+        &__img
+            @extend %relative
+            .block-relative
+                width: 100%
+            .img
+                &-main
+                    filter: drop-shadow(0px 0px 25px rgba(57, 1, 121, 0.12))
+                    display: inline-block
+                    margin: 0 0 30px
+                    +mobile
+                        height: 100%
+                        width: 75%
+                    +desktop-max
+                        margin-bottom: 12px
+                    img
+                        min-width: 100%
+                        +border-radius(0px)
+                        +tablet
+                            max-width: 77%
+                            min-width: auto
+                        +laptop
+                            min-width: 44.5625rem
+                            max-width: 100%
+                            +border-radius(15px)
+                        +fullhd
+                            min-width: 48.5625rem
+
+            .props
+                &-area
+                    @extend .overlay
+                &-4
+                    position: relative
+                    min-width: 110%
+                    top: 16px
+                    left: 3%
+                    +mobile-sm
+                        top: 20px
+                    +tablet
+                        top: 10%
+                        left: 6%
+                    +desktop-mini
+                        min-width: 96.50%
+                        left: 9.18%
+                        top: 7.8%
+                    +laptop
+                        top: 13%
+                    +fullhd
+                        min-width: 105%
+                        left: 7%
+                        top: -8px
+
+        &.features
+            max-width: 36.8125rem
+
+        //brand slider
+        &__slider
+            @extend %relative
+            padding: 40px 0
+            background-color: rgba($primary-900, 0.05)
+            +tablet
+                padding: 59px 0 68px 0
+            h6, .text-6
+                color: $text-500
+                margin-bottom: 1.875rem
+                @extend %semi-bold
+                line-height: 1
+                +mobile-sm-max
+                    padding: 0 15px
+    &-md  
+        @extend .display-flex
+        +align-items(center)
+        +desktop-mini
+            min-height: 27.63rem
+            height: 31.25rem
+        +laptop
+            height: 38.75rem
+        &__content
+            padding: 40px 0 0
+            text-align: center
+            color: $text-600
+            +tablet
+                padding: 70px 0 0
+            +desktop-mini
+                padding: 0
+                text-align: left
+            &.mw-542
+                +laptop
+                    max-width: 542px
+            .btn-wrap
+                @extend .display-flex
+                +justify-content(center)
+                +mobile-sm-max
+                    +flex-wrap(wrap)
+                +desktop-mini
+                    +justify-content(left)
+                .btn + .btn
+                    margin-left: 20px
+                    +mobile-sm-max
+                        margin-left: 0
+                    +laptop
+                        margin-left: 24px
+            .hero-integrations &
+                +desktop-mini
+                    max-width: 460px
+                +laptop 
+                    max-width: 542px
+                    padding-right: 79px
+        &.integration-hero
+            padding: 40px 0
+            +tablet
+                padding: 70px 0 50px
+            +desktop-mini
+                padding: 0
+        &__title
+            color: $text-700
+            @extend %regular
+            margin-bottom: 1.1rem
+        &__text
+            margin-bottom: 1rem
+            line-height: 1.4
+            display: block
+            @extend .text-md
+            @extend .text-600
+            @extend %head-font
+            +desktop-mini
+                margin-bottom: 1.4rem
+        &__info
+            margin-bottom: 1.6rem
+            +desktop-mini
+                margin-bottom: 2rem
+            +laptop
+                margin-bottom: 2.5rem
+            .hero-faq &
+                @extend .text-9
+                line-height: 1.78
+                +laptop
+                    padding-right: 50px
+        &__img 
+            .hero-integrations &
+                width: 80%
+                +tablet
+                    width: 55%
+                +desktop-mini
+                    width: 100%
+                    max-width: 584px
+                    margin-left: auto
+                +desktop-max
+                    padding: 30px 0 70px
+                    margin: 0 auto
+                +mobile-sm-max
+                    padding-bottom: 40px
+            figure
+                .hero-integrations &
+                    @extend %relative
+                    +laptop
+                        right: 27px
+    &-sm
+        padding: 40px 0
+        @extend %overflow
+        @extend .display-flex
+        +align-items(center)
+        +tablet
+            padding: 70px 0
+        +desktop-mini
+            padding: 100px 0
+        +laptop
+            height: 449px
+            padding-top: 115px
+        +fullhd
+            display: block
+        &.hero-overlay
+            &:before
+                height: 140%
+                z-index: -1
+        &.hero-compare
+            &:before
+                height: 100%
+        &__content
+            +desktop-max
+                text-align: center
+            h1
+                color: $text-700
+                @extend %regular
+                margin-bottom: 1.1rem
+                
+            p
+                @extend %head-font
+                color: $text-600
+                margin-bottom: 1.6rem
+                line-height: 1.4
+                @extend .text-md
+                +desktop-mini
+                    margin-bottom: 2rem
+                +laptop
+                    margin-bottom: 2.5rem
+                    max-width: 71%
+                    margin-left: auto
+                    margin-right: auto
+                .hero-blogs &
+                    max-width: 100%
+            &-leftAlign
+                p
+                    max-width: 100%
+                    margin-left: 0
+                    margin-right: 0
+            .btn-wrap
+                @extend .display-flex
+                +justify-content(center)
+                +align-items(center)
+                +mobile-sm-max
+                    +flex-direction(column)
+                .btn + .btn
+                    +tablet
+                        margin-left: 40px
+                .inner-page__date
+                    margin: 0 0 20px 0
+                    +mobile-sm
+                        margin: 0 62px 0 0
+    &-overlay
+        @extend %relative  
+        &:before
+            @extend %absolute
+            @extend %content
+            +bg-gradient(180deg, $primary-100, 0%, $primary-100-gradient, 100%)
+            top: 0
+            height: 73%
+            width: 100%
+            opacity: 0.4
+        &:not(.hero-cloud):not(.hero-phone):not(.hero-widget):not(.hero-download):not(.pricing-hero):not(.case-inner)
+            &:before
+                opacity: 0.8
+    &-bg
+        background-color: #F8F6FA
+    &-phone
+        @extend %overflow
+        &__content
+            margin-right: 0
+            margin: auto
+            +desktop-mini
+                max-width: 460px
+            +laptop
+                max-width: 540px
+                margin: 0
+                padding-right: 77px
+        &__img
+            width: 100%
+            margin: auto
+            @extend %relative
+            +mobile-sm 
+                width: 80%
+            +desktop-mini
+                width: 100%
+            +laptop
+                width: 786px
+                left: -125px
+                top: -6px
+            +fullhd
+                width: 840px
+                top: -2px
+    &-cloud
+        @extend %overflow
+        &__content
+            margin-right: 0
+            margin: auto
+            +desktop-mini
+                max-width: 460px
+            +laptop
+                max-width: 643px
+                margin-right: auto
+                margin: 0
+                padding-right: 180px
+        &__img
+            margin: auto
+            @extend %relative
+            max-width: 85.5%
+            margin-top: 15px
+            +mobile-sm
+                max-width: 60.5%
+            +desktop-mini
+                max-width: 96%
+                margin-top: 0
+                left: 2px
+                top: 8px
+    &-widget
+        @extend %overflow
+        &__content
+            margin-right: 0
+            margin: auto
+            margin-bottom: 30px
+            +desktop-mini
+                max-width: 460px
+                margin-bottom: 0
+                margin-right: auto
+            +laptop
+                max-width: 515px
+                margin: 0
+                padding-right: 52px
+        &__img
+            width: 85%
+            margin: 0 auto 20px
+            @extend %relative
+            +mobile-sm
+                width: 60%
+            +desktop-mini
+                width: 85%
+            +laptop
+                width: 500px
+                left: 45px
+                top: 20px
+            +fullhd
+                width: 690px
+    &-solutions
+        padding: 40px 0
+        @extend .hero-bg
+        +tablet
+            padding: 70px 0 50px
+        +desktop-mini
+            padding: 0
+        &__content
+            padding-top: 0
+            +desktop-mini
+                max-width: 460px
+                text-align: left
+            +laptop
+                max-width: 576px
+                padding-right: 113px
+        &__img
+            position: relative
+            width: 80%
+            +mobile-sm
+                width: 55%
+            +desktop-mini
+                width: 100%
+            +tablet-max
+                text-align: center
+            +desktop-max
+                margin: 2rem auto 0
+            +laptop
+                position: relative
+            .cloud-telephony &
+                +laptop
+                    right: -2.8%
+                    width: 92.4%
+            .call-center &
+                +desktop-mini
+                    text-align: right
+                figure
+                    +desktop-max
+                        text-align: center
+            .contact-center &
+                +desktop-mini
+                +laptop
+                    right: -9px
+            .sales-dialer &
+                +fullhd
+                    max-width: 560px
+                    right: -66px
+                    top: 63px
+            .sales-automation &
+                +desktop-mini
+                    width: 107%
+            .crm-phone &
+                +desktop
+                    max-width: 530px
+                    left: 7.4%
+                +fullhd
+                    left: 12.4%
+            .sales-calls &
+                +laptop
+                    left: 30px
+    &-faq
+        padding: 40px 0
+        +tablet
+            padding: 45px 0 40px
+        &__content
+            +laptop
+                max-width: 611px
+        &__img 
+            max-width: 533px
+            margin-left: auto
+            +desktop-max
+                max-width: 60%
+                margin: 0 auto
+            +mobile
+                max-width: 80%
+    &-blogs
+        padding: 40px 0
+        +desktop-mini
+            padding-top: 62px
+        +laptop
+            padding-bottom: 100px
+
+        &__img
+            width: 80%
+            +mobile-sm
+                width: 60%
+            +desktop-mini
+                width: 100%
+            +desktop-max 
+                margin: 0 auto
+            .case-study &
+                +desktop-mini
+                    max-width: 451px
+                    margin-left: auto
+    &-knowledge
+        padding: 45px 0 0
+        +tablet
+            padding: 70px 0 0 
+        +desktop-mini
+            padding: 0
+        +laptop
+            padding: 100px 0 115px
+        +fullhd
+            padding-top: 0
+        &__content
+            +desktop-max
+                text-align: center
+        &__img
+            figure
+                width: 80%
+                +mobile-sm 
+                    width: 55%
+                +desktop-mini
+                    width: 100%
+                +laptop
+                    margin-top: 40px
+                +fullhd
+                    margin-top: -8px
+                +desktop-max 
+                    margin: 0 auto
+    &-about
+        +align-items(flex-end)
+        &__content
+            width: 100%
+            +desktop-mini
+                max-width: 380px
+            +laptop
+                max-width: 450px
+            +fullhd
+                max-width: 555px
+                padding-right: 92px
+            p
+                line-height: 1.35
+                +desktop-mini
+                    line-height: 1.78
+        &__img
+            @extend %relative
+            bottom: -15px
+            width: 80%
+            +tablet
+                width: 55%
+            +desktop-max 
+                margin: 0 auto
+            +desktop-mini
+                right: -8%
+                width: 110%
+            +laptop
+                right: -38px
+                bottom: -20px
+    &-press-media
+        padding: 40px 0 
+        +tablet
+            padding: 70px 0
+        +laptop
+            padding: 88px 0 40px
+        &__content
+            +desktop-max
+                margin-bottom: 30px
+                text-align: center
+            +desktop-mini
+                max-width: 411px
+            +laptop
+                padding-bottom: 47px
+            +mobile
+                margin-bottom: 28px
+                text-align: center
+            h1
+                line-height: 1
+                color: $text-800
+                margin-bottom: 16px
+            p
+                line-height: 1.5
+                margin-bottom: 0
+            .inner-page__date
+                margin-bottom: 1.6rem
+                color: $text-500
+                font-size: 1rem
+                +desktop-mini
+                    margin-bottom: 40px
+        &__img
+            @extend .text-center
+            width: 80%
+            +mobile-sm
+                width: 60%
+            +desktop-max 
+                margin: 0 auto
+            +desktop-mini
+                width: 100%
+                margin-left: auto
+                max-width: 407px
+    &-contact
+        padding: 40px 0 0 0
+        +tablet
+            padding-top: 70px 
+        +desktop-mini
+            padding-top: 0
+        &__content
+            +desktop-mini
+                text-align: left
+            +desktop-mini
+                max-width: 460px
+            +laptop
+                max-width: 463px
+            p
+                max-width: 100%
+                +desktop-mini
+                    margin-bottom: 0
+        &__img 
+            @extend .text-center
+            width: 80%
+            +tablet
+                width: 55%
+            +desktop-max 
+                margin: 0 auto
+            +desktop-mini
+                max-width: 400px
+                width: 100%
+                margin-left: auto
+            +laptop
+                margin-bottom: -65px
+    &-career
+        padding: 40px 0 0
+        +tablet
+            padding-top: 70px
+        +desktop-mini
+            padding-top: 0
+        +desktop-max 
+            overflow: hidden
+        &.hero-overlay
+            &:before
+                +desktop-mini
+                    height: 100%
+                    +bg-gradient(220deg, $primary-100, 100%, $primary-100-gradient, 100%)
+        .container
+            height: 100%
+        .hero-sm    
+            &__img
+                @extend %relative
+                z-index: 1
+                width: 70%
+                bottom: -14px
+                +tablet
+                    width: 55%
+                +desktop-mini
+                    width: 100%
+                    max-width: 517px
+                    margin-left: auto
+                    bottom: -18px
+                +laptop
+                    bottom: -38px
+                +desktop-max 
+                    margin: 0 auto
+            &__content
+                +desktop-mini
+                    max-width: 460px
+                    p 
+                        margin-bottom: 0
+                +laptop 
+                    max-width: 463px
+    &-comparisons
+        +laptop
+            height: 42.5625rem
+        .hero-md
+            
+            &__content
+                +laptop
+                    max-width: 463px
+            &__img
+                width: 80%
+                +mobile-sm
+                    width: 60%
+                +desktop-max 
+                    margin: 0 auto
+                +desktop-mini
+                    width: 100%
+                +desktop-max
+                    padding: 30px 0 70px
+                +mobile
+                    padding: 30px 0 40px
+    &-roadmap
+        padding: 40px 0
+        +tablet
+            padding: 52px 0 69px
+        .hero-sm
+            &__content
+                +desktop-mini
+                    max-width: 440px
+                .inner-page__date
+                    margin: 16px 0 24px
+                    color: $text-500
+                    +desktop-mini
+                        margin-bottom: 40px
+                p
+                    color: $text-600
+                    line-height: 1.5
+                    @extend %body-font
+            &__img
+                width: 80%
+                +mobile-sm
+                    width: 60%
+                +desktop-max 
+                    margin: 0 auto
+                +desktop-mini
+                    width: 100%
+                    max-width: 603px
+                    margin-left: auto

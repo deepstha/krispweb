@@ -1,0 +1,474 @@
+@import '../base/_baseUtilities'
+@import '../layout/banner'
+.solutions
+    &-expln
+        padding: 40px 0
+        +tablet
+            padding: 70px 0
+        +desktop-mini
+            padding: 90px 0 100px
+        .c-wrap
+            & > div
+                margin-top: 40px
+                +tablet
+                    margin-top: 70px
+                +laptop
+                    margin-top: 120px
+                &:nth-of-type(3)
+                    .c-wrap
+                        &__img
+                            text-align: center
+                
+                &:not(:nth-of-type(2))
+                    .c-wrap
+                        &__content
+                            +desktop-mini
+                                max-width: 484px
+             
+                
+            &__content
+                +desktop-max
+                    text-align: center
+                
+                p
+                    margin-bottom: 0
+                    line-height: 1.75
+                    & + p
+                        margin-top: 15px
+                        +laptop
+                            margin-top: 17px
+                    & + dl
+                        margin-top: 15px
+                        margin-bottom: 0
+                        +laptop
+                            margin-top: 28px
+            &__title
+                margin-bottom: 1.0625rem
+                +desktop-max
+                    margin-bottom: .9375rem
+                color: $text-700
+                @extend %medium
+                @extend .text-5
+                span
+                    @extend %bold
+                    color: $primary-color
+
+            &__img
+                display: block
+                +desktop-max
+                    margin-bottom: 30px
+                figure
+                    @extend %relative
+                    +desktop-max
+                        text-align: center
+            &__imgWrap
+                +desktop-max
+                    margin-bottom: 30px
+            .fw-slider
+                .slick-dots
+                    bottom: 3px
+                h3 
+                    @extend .text-4
+        &--cloud-telephony
+            .c-wrap
+                & > div
+                    &:nth-of-type(1)
+                        .c-wrap
+                            &__img
+                                +desktop-max
+                                    margin-bottom: -10%
+                    &:nth-of-type(3)
+                        .c-wrap
+                            &__img
+                                figure
+                                    +laptop
+                                        right: 20px
+                    &:nth-of-type(4)
+                        .c-wrap
+                            &__imgWrap
+                                margin-bottom: 5px
+                                +desktop-max
+                                    margin: 8% 0 5px
+                            &__animation
+                                .lottie
+                                    width: 49%
+                                    height: auto
+                                    +desktop-mini
+                                        width: 46.95%
+                            &__img
+                                @extend %absolute
+                                top: -4px
+                                width: 50%
+                                right: 50px
+                                +tablet
+                                    top: -30px
+                                    width: 36%
+                                    right: 160px
+                                +desktop-mini
+                                    width: 60%
+                                    right: 8.36%
+        &--call-center
+            .c-wrap
+                & > div
+                    &:nth-of-type(1)
+                        .c-wrap
+                            &__imgWrap
+                                +desktop-max
+                                    margin-bottom: 0
+                    &:nth-of-type(4)
+                        .c-wrap
+                            &__imgWrap
+                                margin-bottom: 100px
+                                +desktop-max
+                                    margin: 10% 0 20px
+                            &__animation
+                                .lottie
+                                    @extend %relative
+                                    width: 69%
+                                    +desktop-mini
+                                        top: 35px
+                                    +laptop
+                                        width: 62%
+                                        left: 2.5%
+                                        top: 75px
+                                    svg
+                                        height: auto !important
+                            &__img
+                                @extend %absolute
+                                top: 9px
+                                right: 0
+                                width: 65%
+                                +laptop
+                                    right: 2%
+                                +tablet-max
+                                    width: 55%
+                                    right: 5%
+                                +desktop-max
+                                    top: -25%
+                                    width: 34%
+                                    right: 20%
+                                +mobile
+                                    top: -22px 
+                                    width: 48%
+                                    right: 9%
+                                
+        &--contact-center
+            .c-wrap
+                & > div
+                    &:nth-of-type(1)
+                        +laptop
+                            margin-top: 42px
+                        .c-wrap__animation
+                            +desktop-max
+                                padding:  0 7rem
+                            +mobile
+                                padding: 0
+                    &:nth-of-type(3)
+                        .c-wrap
+                            &__content
+                                +desktop-mini
+                                    max-width: 472px
+                    &:nth-of-type(4)
+                        .c-wrap
+                            &__imgWrap
+                                margin-bottom: 100px
+                                +desktop-max
+                                    margin: 5% 0 20px
+                            &__animation
+                                .lottie
+                                    @extend %relative
+                                    width: 64.5%
+                                    +desktop-mini
+                                        top: 25px
+                                    +laptop
+                                        width: 50.4%
+                                        left: 1.9%
+                            &__img
+                                @extend %absolute
+                                top: 9px
+                                width: 59%
+                                right: 40px
+                                +laptop
+                                    right: 21%
+                                // +tablet-max
+                                //     width: 55%
+                                //     right: 5%
+                                +desktop-max
+                                    top: -10%
+                                    width: 31%
+                                    right: 26%
+                                +mobile
+                                    top: -6px 
+                                    width: 42%
+                                    right: 17%
+        &--sales-automation
+            .c-wrap
+                & > div
+                    &:nth-of-type(4)
+                        .c-wrap
+                            &__imgWrap
+                                +desktop-max
+                                    margin: 3% 0 20px
+                            &__animation
+                                .lottie
+                                    @extend %relative
+                                    width: 64.5%
+                                    +laptop
+                                        width: 59.65%
+                            &__img
+                                @extend %absolute
+                                top: 9px
+                                width: 54%
+                                right: 5%
+                                +laptop
+                                    right: 7.2%
+                                    width: 49.78%
+                                +desktop-max
+                                    top: -2%
+                                    width: 31%
+                                    right: 20%
+                                +mobile
+                                    top: 14px 
+                                    width: 42%
+                                    right: 9%
+
+        &--sales-dialer
+            .c-wrap
+                & > div
+                    &:nth-of-type(1)
+                        +desktop-max
+                            margin-top: 0
+                    &:nth-of-type(4)
+                        .c-wrap
+                            &__imgWrap
+                                +desktop-max
+                                    margin: 5% 0 20px
+                            &__animation
+                                .lottie
+                                    @extend %relative
+                                    left: 8.3%
+                                    width: 40%
+                                    +laptop
+                                        width: 35.46%
+                            &__img
+                                @extend %absolute
+                                top: 11%
+                                width: 46%
+                                right: 5%
+                                +laptop
+                                    right: 13.90%
+                                    width: 42.69%
+                                +desktop-max
+                                    top: -2%
+                                    width: 31%
+                                    right: 20%
+                                +mobile
+                                    top: -20px 
+                                    width: 42%
+                                    right: 5%
+
+        &--crm-phone
+            .c-wrap
+                & > div
+                    &:nth-of-type(4)
+                        .c-wrap
+                            &__imgWrap
+                                +desktop-max
+                                    margin: 5% 0 20px
+                            &__animation
+                                .lottie
+                                    @extend %relative
+                                    svg
+                                        height: auto
+                            &__img
+                                @extend %relative
+                                width: 80%
+                                margin: 0 auto 30px
+                                padding-top: 18px
+                                +laptop
+                                    left: 9.9%
+                                +desktop-max
+                                    width: 42%
+                                +mobile
+                                    width: 50%
+
+        &--sales-calls
+            .c-wrap
+                & > div
+                    &:nth-of-type(1)
+                        +laptop
+                            margin-top: 70px
+                        .c-wrap
+                            &__content
+                                margin-top: 40px
+                                +desktop-mini
+                                    max-width: 552px
+                                    margin-top: 0
+
+                    &:nth-of-type(2)
+                        +laptop
+                            margin-top: 105px
+                    &:nth-of-type(3)
+                        +laptop
+                            margin-top: 80px
+                        .c-wrap
+                            &__content
+                                +laptop
+                                    padding-bottom: 30px
+                    &:nth-of-type(4)
+                        +laptop
+                            margin-top: 90px
+                        +desktop-max
+                            margin-top: 10px
+                        .c-wrap
+                            &__imgWrap
+                                +desktop-max
+                                    margin: 5% 0 20px
+                            &__animation
+                                width: 95%
+                                +laptop
+                                    width: 91.35%
+                            &__img
+                                @extend %absolute
+                                top: 26%
+                                right: 2%
+                                width: 54.5%
+                                +desktop-mini
+                                    width: 50.35%
+                                +desktop-max
+                                    top: 13%
+                                    width: 31%
+                                    right: 22%
+                                +mobile
+                                    top: 22% 
+                                    width: 43%
+                                    right: 9%
+        &--capture-leads
+            .c-wrap
+                & > div
+                    &:nth-of-type(3)
+                        .c-wrap
+                            &__content
+                                +laptop
+                                    max-width: 504px
+                    &:nth-of-type(4)
+                        .c-wrap__imgWrap
+                            +desktop-max
+                                margin-bottom: 0
+
+.ct-collapse
+    &__header
+        height: 60px
+        background: #FCFCFC
+        border: 2px dashed rgba(#D7CCE4, 0.6)
+        padding: 16px 24px 16px 15px
+        @extend .text-7
+        @extend %semi-bold
+        line-height: 1.45
+        color: $text-900
+        width: 100% !important
+        @extend %display-flex
+        +justify-content(space-between)
+        +align-items(center)
+        cursor: pointer
+        +border-radius(2px)
+        +tablet
+            height: 70px
+            padding: 19px 38px 19px 24px
+    &__body
+        padding: 20px 15px
+        border: 2px dashed rgba(#D7CCE4, 0.6)
+        border-top: 0
+        +border-radius(0px 2px 2px 0px)
+        +tablet
+            padding: 40px 20px
+        +desktop-mini
+            padding: 60px 25px 56px 45px
+        ol
+            padding-left: 20px
+            margin-bottom: 0
+            +mobile-sm
+                padding-left: 25px
+            +tablet
+                padding-left: 35px
+            li
+                @extend .text-9
+                line-height: 1.7
+                +tablet
+                    line-height: 2
+                a
+                    color: $text-700
+    &__icon
+        @extend %relative
+        [class*="icon-"]
+            float: right
+        .icon-minus
+            display: none
+    [aria-expanded="true"]
+        .icon-minus
+            display: block
+        .icon-plus
+            display: none
+
+
+.fw-slider
+    &__wrapper
+        @extend %relative
+        .props-area
+            +desktop-max
+                display: none
+            figure
+                margin: 0
+                @extend %absolute
+                +transform(rotate(90deg))
+                z-index: -1
+                &:nth-of-type(1)
+                    top: 7px
+                    right: 17px
+                    img
+                        height: 100%
+                        width: 100%
+                &:nth-of-type(2)
+                    bottom: -15px
+                    left: -10px
+    &__item
+        @extend %relative
+        @extend %w-100
+        padding: 20px 15px 30px
+        +mobile-sm
+            padding: 50px
+        +desktop-mini
+            padding: 60px
+        img
+            max-height: 591px
+        &:before
+            @extend %content
+            @extend %absolute
+            height: 70%
+            width: 80%
+            filter: blur(20px)
+            background: rgba(0, 0, 0, 0.1)
+            transform: matrix(-1, 0, 0, 1, 0, 0)
+            z-index: -1
+            top: 14%
+            left: 13%
+            +mobile-sm
+                height: calc(100% - 110px)
+                width: calc(100% - 140px)
+                top: 70px
+                left: 70px
+                filter: blur(30px)
+            +desktop-mini
+                height: calc(100% - 120px)
+                width: calc(100% - 150px)
+                top: 70px
+                left: 60px
+        &.slick-slide
+            margin: 0
+            +mobile-sm
+                margin: 0 -20px
+            +desktop-mini
+                margin: 0 20px
+    &__content
+        +mobile-sm-max
+            margin: 0 -15px

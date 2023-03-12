@@ -1,0 +1,242 @@
+{
+    "nepal": [
+        {
+            "kathmandu": [
+                {
+                    "number": "+97732544657",
+                    "area":"kathmandu",
+                    "code":"448",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544656",
+                    "area":"kathmandu",
+                    "code":"444",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544645",
+                    "area":"kathmandu",
+                    "code":"443",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544698",
+                    "area":"kathmandu",
+                    "code":"441",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544612",
+                    "area":"kathmandu",
+                    "code":"442",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544634",
+                    "area":"kathmandu",
+                    "code":"447",
+                    "flag":"nepal.svg"
+                }
+            ],
+            "biratnagar": [
+                {
+                    "number": "+97732544657",
+                    "area":"biratnagar",
+                    "code":"348",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544656",
+                    "area":"biratnagar",
+                    "code":"344",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544645",
+                    "area":"biratnagar",
+                    "code":"343",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544698",
+                    "area":"biratnagar",
+                    "code":"341",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544612",
+                    "area":"biratnagar",
+                    "code":"342",
+                    "flag":"nepal.svg"
+                },
+                {
+                    "number": "+97732544634",
+                    "area":"biratnagar",
+                    "code":"347",
+                    "flag":"nepal.svg"
+                }
+            ]
+        }
+    ],
+    "india": [
+        {
+            "delhi": [
+                {
+                    "number": "01132544657",
+                    "area":"delhi",
+                    "code":"148",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "01132544656",
+                    "area":"delhi",
+                    "code":"144",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "01132544645",
+                    "area":"delhi",
+                    "code":"143",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "01132544698",
+                    "area":"delhi",
+                    "code":"141",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "01132544612",
+                    "area":"delhi",
+                    "code":"142",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "01132544634",
+                    "area":"delhi",
+                    "code":"147",
+                    "flag":"india.svg"
+                }
+            ],
+            "mumbai": [
+                {
+                    "number": "02232544657",
+                    "area":"mumbai",
+                    "code":"548",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "02232544656",
+                    "area":"mumbai",
+                    "code":"544",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "02232544645",
+                    "area":"mumbai",
+                    "code":"543",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "02232544698",
+                    "area":"mumbai",
+                    "code":"541",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "02232544612",
+                    "area":"mumbai",
+                    "code":"542",
+                    "flag":"india.svg"
+                },
+                {
+                    "number": "02232544634",
+                    "area":"mumbai",
+                    "code":"547",
+                    "flag":"india.svg"
+                }
+            ]
+        }
+    ],
+    "china": [
+        {
+            "beijing": [
+                {
+                    "number": "+8732544657",
+                    "area":"beijing",
+                    "code":"448",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8732544656",
+                    "area":"beijing",
+                    "code":"444",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8732544645",
+                    "area":"beijing",
+                    "code":"443",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8732544698",
+                    "area":"beijing",
+                    "code":"441",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8732544612",
+                    "area":"beijing",
+                    "code":"442",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8732544634",
+                    "area":"beijing",
+                    "code":"447",
+                    "flag":"china.svg"
+                }
+            ],
+            "wuhan": [
+                {
+                    "number": "+8632544657",
+                    "area":"wuhan",
+                    "code":"348",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8632544656",
+                    "area":"wuhan",
+                    "code":"344",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8632544645",
+                    "area":"wuhan",
+                    "code":"343",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8632544698",
+                    "area":"wuhan",
+                    "code":"341",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8632544612",
+                    "area":"wuhan",
+                    "code":"342",
+                    "flag":"china.svg"
+                },
+                {
+                    "number": "+8632544634",
+                    "area":"wuhan",
+                    "code":"347",
+                    "flag":"china.svg"
+                }
+            ]
+        }
+    ]
+}

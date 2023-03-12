@@ -1,0 +1,52 @@
+.list
+    &-icon
+        padding-left: 30px
+        li
+            @extend %relative
+            @extend %head-font
+            line-height: 1
+            color: $gray-dark
+            @extend %medium
+            &:before
+                @extend %content
+                @extend %absolute
+                height: 15px
+                width: 15px
+                left: -24px
+                top: 2px
+                background-position: center
+                background-repeat: no-repeat
+                background-size: 15px 15px
+                +tablet
+                    height: 18px
+                    width: 18px
+                    background-size: 18px 18px
+                    left: -30px
+                    top: 0
+            &:not(:last-of-type)
+                margin-bottom: 12px
+                +tablet
+                    margin-bottom: 20px
+        &--check
+            li:before
+                // background-image: url('/src/assets/images/svg/icons/icon-checkbox-circle.svg') 
+        &--page
+            li:before
+                background-image: url('/src/assets/images/svg/icons/icon-page.svg') 
+        &--primarydisc
+            padding-left: 50px
+            margin-bottom: 30px
+            +tablet
+                padding-left: 70px
+                margin-bottom: 60px
+            li
+                line-height: 1.5
+                color: $text-700
+                &:before
+                    background: $primary-color
+                    height: 10px
+                    width: 11px
+                    background-position: left
+                    background-size: auto
+                    top: 8px
+                    +border-radius(50%)

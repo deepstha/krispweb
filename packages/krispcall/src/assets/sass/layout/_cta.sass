@@ -1,0 +1,168 @@
+.cta
+    background: $primary-800
+    padding: 40px 0
+    @extend %relative
+    @extend %overflow
+    color: $white-color
+    +tablet
+        padding: 51px 0
+    +desktop-mini
+        padding: 100px 0
+    &__text
+        z-index: 1
+        @extend %relative
+        
+        +desktop-max
+            margin-bottom: 40px
+        figure
+            width: 144px
+            +tablet
+                width: 184px
+                
+        h6
+            @extend .text-8
+            color: $white-color
+            line-height: 1.4
+            margin: 1.25rem 0 3.125rem
+            @extend %regular
+            span
+                @extend .text-bolder
+            +tablet
+                max-width: 480px
+        .d-flex
+            +mobile-sm-max
+                +flex-wrap(wrap)
+
+    &__list
+        max-width: 396px
+        margin-bottom: 0
+        +desktop
+            margin-left: auto
+
+        li
+            @extend .text-9
+            color: $white-color
+            +desktop-max
+                line-height: 1.3 !important
+        &.list
+            &-icon--check 
+                // li 
+                //     &:before
+                //         background-image: url('src/assets/images/svg/icons/icon-checkbox-circle-white.svg')
+
+            &-icon 
+                li
+                    color: $white-color
+    .props-area
+        &--1,
+        &--2,
+        &--3
+            @extend %absolute
+        +tablet-max 
+            display: none
+        &--1
+            left: 200px
+            bottom: 0
+            img 
+                width: 255px
+                height: 255px
+        &--2
+            right: 36%
+            transform: translateX(-50%)
+            bottom: -50px
+            img 
+                height: 101px
+                width: 101px
+        &--3
+            right: 0
+            bottom: 0
+            img 
+                width: 367px
+                height: 367px
+    &-left
+        padding: 0 25px 40px 0
+        h5
+            padding-top: 40px
+            border-top: 1px solid rgba(158,153,171,0.3)
+            color: $white-color
+            margin-bottom: 25px
+            line-height: 1.4
+        .btn
+            height: 44px
+            padding: 15px
+            +laptop
+                width: 225px
+                padding: 15px 17px
+    &-contact
+        background: rgba(246, 173, 173, 0.015)
+        border: 1px solid #DADEE1
+        +border-radius(10px)
+        padding: 30px
+        +flex-direction(column)
+        height: 100%
+        +desktop-mini
+            +flex-direction(row)
+            padding: 0
+        +desktop-max
+            width: 100%
+        +fullhd
+            height: 350px
+        &__content
+            padding-bottom: 20px
+            text-align: center
+            +tablet
+                text-align: left
+            +desktop-mini
+                max-width: 184px
+                padding-left: 20px
+            +laptop
+                max-width: 300px
+                padding: 0 0 0 60px
+            h5
+                color: $text-900
+                line-height: 1.88rem
+                @extend %body-font
+                margin-bottom: 30px
+                @extend %regular
+                +desktop-mini
+                    margin-right: -40px
+        &__img
+            +desktop-mini
+                padding: 20px 30px 20px 0
+
+//cta
+.wp-block-columns
+    @extend.row 
+    +align-items(center)
+    .wp-block-column 
+        flex-basis: 50% !important
+        max-width: 50%
+
+.wp-block-button 
+    &.btn-primary
+        a.wp-block-button__link
+            color: $white-color
+
+    &.btn-outline
+        a.wp-block-button__link
+            color: $primary-color
+.btn-group 
+    .kt-btn-wrap
+        margin-right: 27px !important
+        .button 
+            @extend .btn 
+            #extend .btn-sm
+            .kt-btn-svg-icon 
+                margin-left: 10px
+            
+        &-0
+            .button
+                @extend .btn-primary
+                color: $white-color
+                svg 
+                    fill: transparent
+
+        &-1 
+            .button
+                @extend .btn-outline
+                color: $primary-color

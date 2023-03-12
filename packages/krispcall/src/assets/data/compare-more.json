@@ -1,0 +1,75 @@
+{
+    "compare": [
+        {   
+            "image": "callhippo",
+            "alt" : "CallHippo",
+            "width":"118",
+            "height":"29",
+            "desc" :"Choose the superior VoIP solution for your company with our detailed assessment of KrispCall and CallHippo features."
+        },
+        {   
+            "image": "aircall",
+            "alt" : "AirCall",
+            "width":"118",
+            "height":"34",
+            "desc" :"Access our in-depth comparison between KrispCall and AirCall features to decide which VoIP suits your business the best."
+        },
+        {   
+            "image": "callpage",
+            "alt" : "CallPage",
+            "width":"117",
+            "height":"50",
+            "desc" :"Decide the best solution for your business communication using our in-depth evaluation of KrispCall and CallPage."
+        },
+        {   
+            "image": "snapcall",
+            "alt" : "SnapCall",
+            "width":"118",
+            "height":"39",
+            "desc" :"Discover the benefits of using KrispCall as the alternative to SnapCall with our in-depth assessment of the two solutions."
+        },
+        {   
+            "image": "openphone",
+            "alt" : "OpenPhone",
+            "width":"183",
+            "height":"29",
+            "desc" :"Read our full comparison of KrispCall and OpenPhone’s VoIP features to decide which solution serves you the best."
+        },
+        {   
+            "image": "talkdesk",
+            "alt" : "TalkDesk",
+            "width":"105",
+            "height":"44",
+            "desc" :"If you are making the switch from Talkdesk, learn about the benefits of upgrading to KrispCall with our KrispCall vs. Talkdesk comparison."
+        },
+        {   
+            "image": "dialpad",
+            "alt" : "DialPad",
+            "width":"131",
+            "height":"35",
+            "desc" :"If you are searching for the best Dialpad alternative, read our detailed KrispCall vs. Dialpad comparison for making the right choice."
+        },
+        {   
+            "image": "cloudtalk",
+            "alt" : "CloudTalk",
+            "width":"139",
+            "height":"23",
+            "desc" :"Learn how KrispCall offers a premium VoIP experience compared to CloudTalk with our KrispCall vs. CloudTalk comparison."
+        },
+        {   
+            "image": "yodel",
+            "alt" : "Yodel",
+            "width":"81",
+            "height":"23",
+            "desc" :"Upgrade your business phone system by choosing the superior alternative with our KrispCall vs. Yodel comparison."
+        },
+        {   
+            "image": "justcall",
+            "alt" : "JustCall",
+            "width":"118",
+            "height":"40",
+            "desc" :"Get the best business phone for your company by comparing the VoIP benefits of KrispCall and JustCall."
+        }
+        
+    ]
+}

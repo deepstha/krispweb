@@ -1,0 +1,320 @@
+@import '../base/base'
+@import '../components/buttons'
+.cloud
+    &-features
+        padding-top: 40px
+        +tablet
+            padding-top: 70px
+        +laptop
+            padding-top: 120px
+        overflow: hidden
+        .heading
+            margin-bottom: 57px
+            +desktop-max
+                margin-bottom: 45px
+            +mobile-sm-max
+                margin-bottom: 30px
+        .row
+            .c-wrap
+                &__imgWrap
+                    @extend %relative
+                &__content
+                    +desktop-max
+                        padding: 30px 0 0
+                        text-align: center
+                    br
+                        +desktop-max
+                            display: none
+            &:nth-of-type(1)
+                +mobile
+                    padding-bottom: 50px
+                +desktop-max
+                    padding-bottom: 70px
+                +mobile-sm-max
+                    padding-bottom: 40px
+                .c-wrap
+                    &__content
+                        +desktop-max
+                            margin-top: -10px
+                    &__animation
+                        .lottie
+                            +fullhd
+                                margin-left: -10px
+
+            &:nth-of-type(2)
+                +tablet
+                    padding: 0 0 10px 0
+                +desktop-mini
+                    padding: 65px 0 0
+                .c-wrap
+                    &__content
+                        
+                        +desktop-max 
+                            padding: 0
+                        +mobile 
+                            margin-top: -30px
+                        +mobile-sm-max 
+                            margin-top: 0
+                    &__animation
+                        .lottie
+                            +desktop-mini
+                                width: 106%
+                            +fullhd
+                                margin-left: 37px
+            &:nth-of-type(3)
+                margin-top: 0
+                padding-bottom: 50px
+                +tablet
+                    padding-bottom: 70px
+                +desktop-mini
+                    margin-top: -65px
+                    padding-bottom: 0
+                +laptop
+                    margin-top: -2px
+                .c-wrap
+                    &__content
+                        +desktop-max
+                            margin-top: -17%
+                            position: relative
+                            z-index: 1
+                        +mobile
+                            padding: 0
+                        +mobile-sm-max
+                            margin-top: -23%
+                    &__animation
+                        +desktop-mini
+                            width: 111%
+                            margin-left: -40px
+                        +desktop-max 
+                            padding: 0 6rem
+                        +tablet-sm-max 
+                            padding: 0 2rem
+                        +mobile-sm-max 
+                            padding : 0
+
+            &:nth-of-type(4)
+                margin-top: 0
+                padding-bottom: 50px
+                +tablet
+                    padding-bottom: 70px
+                +desktop-mini
+                    margin-top: -132px
+                    padding-bottom: 40px
+                +laptop
+                    padding-bottom: 0
+                .c-wrap
+                    &__animation
+                        .lottie
+                            +desktop-mini
+                                height: 463px
+                            +fullhd
+                                margin-left: 200px
+
+            &:nth-of-type(5)
+                +desktop-max
+                    padding-bottom: 70px
+                +mobile
+                    padding-bottom: 50px
+                +laptop
+                    margin-top: 100px
+                    margin-bottom: 100px
+                .c-wrap
+                    &__content
+                        +mobile 
+                            padding: 0
+                            margin-top: -20px
+                    &__animation
+                        @extend %relative
+                        +desktop-max
+                            margin-top: 20px
+                        +fullhd
+                            left: -10px
+                        .lottie
+                            height: 290px
+                            +tablet
+                                height: auto
+                            +desktop-mini
+                                height: 345px
+
+            &:nth-of-type(6)
+                padding-bottom: 30px
+                +tablet
+                    padding-bottom: 70px
+                +desktop-mini
+                    padding-bottom: 85px
+                .c-wrap
+                    &__content
+                        padding-top: 20px
+                        +desktop-mini
+                            padding: 0
+                        +desktop-max
+                            margin-top: -20px
+                        +mobile 
+                            margin-top: 0
+                        +mobile-sm-max 
+                            margin-top: -35px
+                    &__animation
+                        left: auto
+                        @extend %relative
+                        +fullhd
+                            right: -21px
+                        .lottie
+                            max-width: 698px
+
+            .lottie
+                +desktop-max
+                    margin-left: auto !important
+                    margin-right: auto !important
+                    max-width: 80% !important
+                +mobile
+                    max-width: 100% !important
+
+    &-featureGroup
+        +gradient(180deg, #FDFDFF 0%, #fff 100%)
+        padding: 40px 0 0
+        +tablet
+            padding: 70px 0 0
+        +desktop-mini
+            padding: 86px 0 52px
+        +laptop
+            padding: 92px 0 40px
+        .two-col
+            +align-items(center)
+            &__content
+                +tablet
+                    max-width: 537px
+            &__imgWrap
+                +mobile
+                    margin: 0
+                    padding: 0 5rem
+                +mobile-sm-max 
+                    padding: 0 3rem
+            &__img
+                display: none
+                +tablet
+                    display: block
+.iconList-flex
+    &__item
+        @extend .display-flex
+        +align-items(flex-start)
+
+        .tag-icon
+            padding: 0
+            margin-right: 12px
+            min-width: 36px
+            min-height: 35px
+            @extend .display-flex
+            +border-radius(6px)
+            +justify-content(center)
+
+    &__info
+        margin-bottom: 25px
+        +tablet
+            margin-bottom: 48px
+        h6
+            @extend %semi-bold
+            margin: 3px 0 20px
+            color: $text-900
+            line-height: 1.36
+            +mobile-sm-max
+                margin-bottom: 14px
+        p
+            opacity: 0.8
+            margin: 0
+
+.call-features
+    +mobile
+        padding-bottom: 20px
+    .two-col
+        margin-bottom: 30px
+        +tablet
+            margin-bottom: 15px
+        +laptop
+            margin-bottom: 12px
+        +fullhd
+            margin-bottom: 17px
+        &__imgWrap
+            @extend %relative
+            +tablet
+                margin: -12px 0 0
+            +desktop-mini
+                margin: 0 0 0 100px
+            +fullhd
+                width: 450px
+        
+.intelligent-call
+    padding-bottom: 20px
+    +tablet
+        padding: 17px 0 68px 0
+    +laptop
+        padding: 51px 0 18px 0
+    +fullhd
+        padding: 72px 0 40px 0
+    .two-col
+        padding-bottom: 50px
+        +tablet
+            padding-bottom: 52px
+        +laptop
+            padding-bottom: 61px
+        +fullhd
+            padding-bottom: 89px
+        &__imgWrap
+            @extend %relative
+            +tablet
+                margin-left: auto
+            +laptop
+                margin-top: -15px
+            +fullhd
+                width: 463px
+                margin: -15px 90px 0 auto
+
+.sms-features
+    padding-bottom: 20px
+    +tablet
+        padding-bottom: 23px
+    +fullhd
+        padding-bottom: 45px
+    .two-col
+        padding-bottom: 20px
+        +tablet
+            padding-bottom: 34px
+        +laptop
+            padding-bottom: 30px
+        +fullhd
+            padding-bottom: 55px
+        &__imgWrap
+            @extend %relative
+            +tablet
+                margin: -50px 0 0 0
+            +desktop-mini
+                margin: -84px 0 0 65px  
+            +fullhd
+                width: 421px      
+
+.admin-features
+    padding-bottom: 8px
+    +tablet
+        padding-bottom: 0
+    .two-col
+        padding-bottom: 20px
+        +tablet
+            padding-bottom: 55px
+        +desktop-mini
+            padding-bottom: 44px
+        +laptop
+            padding-bottom: 35px
+        +fullhd
+            padding-bottom: 61px
+        &__imgWrap
+            @extend %relative
+            margin: 0 auto
+            width: 85%
+            +tablet
+                margin: -30px 0 0 auto
+            +desktop-mini
+                margin: -50px 0 0 auto
+            +laptop
+                margin-left: 105px
+            +fullhd
+                margin: -15px 140px 0 auto
+                width: 350px

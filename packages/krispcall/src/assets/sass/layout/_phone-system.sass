@@ -1,0 +1,58 @@
+.phone-system
+    padding: 2.5rem 0 0.6rem
+    background: #F9FBFF
+    +tablet
+        padding: 4.375rem 0 1rem
+    +laptop
+        padding: 6.25rem 0 1.8rem
+    .two-col
+        &__img
+            @extend %relative
+            +laptop
+                right: -4px
+            figure
+                margin: 0
+            .img
+                &-main
+                    width: 80.54%
+                    margin: 0 0 0 auto
+                    +fullhd
+                        margin-left: 100px
+            .props-area
+                display: none
+                +tablet
+                    display: block
+                figure
+                    @extend %absolute
+                    &:nth-of-type(1)
+                        top: 45.30%
+                        right: 0
+                        width: 25.67%
+                        +fullhd
+                            right: -1.38%
+                    &:nth-of-type(2)
+                        top: 25.50%
+                        width: 62.80%
+                        left: 13.8%
+    .iconList
+        &-grid
+            margin-top: 30px
+            +tablet
+                margin-top: 45px
+            +laptop
+                margin-top: 82px
+            &__item
+                +mobile
+                    text-align: center
+                    margin-bottom: 30px
+    figure
+        min-height: auto
+        +desktop-mini
+            min-height: 270px
+        +laptop
+            min-height: 325px
+        +fullhd
+            min-height: 362px
+
+
+

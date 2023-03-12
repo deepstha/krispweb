@@ -1,0 +1,62 @@
+.inner-page
+    padding: 0 0 40px
+    +tablet
+        padding: 40px 0 80px
+    +desktop-mini
+        padding: 60px 0 120px
+    color: $text-500
+    .btn
+        font-size: 14px
+        &-wrap
+            text-align: right
+            margin-bottom: 17px
+    &__info
+        text-align: center
+        margin: 20px 0 54px
+        +tablet
+            text-align: left
+        +desktop-mini
+            margin: 0 0 60px 0
+        h1
+            line-height: 1
+            @extend %light
+            color: $text-800
+            margin-bottom: 16px
+            +mobile
+                font-size: 2rem
+        p
+            @extend %light
+            color: $text-600
+            line-height: 1.4
+            @extend %body-font
+    &__date
+        line-height: 1
+        @extend %head-font
+        margin-bottom: 40px
+        +tablet
+            margin-bottom: 60px
+        display: block
+        span
+            color: $text-800
+            @extend %semi-bold
+    h2
+        & + p,
+        & + ul
+            margin-top: 18px
+            +tablet
+                margin-top: 30px
+    p,ul
+        @extend .text-10
+        line-height: 1.75
+        color: $text-500
+        & + h2
+            margin-top: 60px
+    p
+        & + ul
+            margin-top: 30px
+    ul
+        & + p
+            margin-top: 30px
+        li
+            &:not(:last-of-type)
+                margin-bottom: 15px

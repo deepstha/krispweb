@@ -1,0 +1,50 @@
+//base layout
+@import '../base/base'
+@import '../layout/banner'
+@import '../components/buttons'
+@import '../layout/two-col'
+.bg-lt-gray
+    background: #F8F6FA
+    color: $text-700
+
+.about
+    .two-col
+        &__img
+            +desktop-max
+                text-align: center
+            #coreValues 
+                svg
+                    +desktop-max
+                        max-width: 60%
+
+        &__content
+            +desktop-mini
+                max-width: 505px
+            +desktop-max
+                margin-top: 30px
+                text-align: center
+                margin-bottom: 0
+            h2
+                margin-bottom: 1.1429rem
+                line-height: 1.28
+            p
+                &:last-of-type
+                    margin-bottom: 0
+            dl
+                margin-top: 30px
+                dt,dd
+                    @extend .text-10
+        &:nth-of-type(odd)
+            .two-col__content
+                +laptop
+                    margin-left: auto
+        &:nth-of-type(1)
+            .two-col__img
+                text-align: center
+                .lottie
+                    +desktop-mini
+                        width: 110%
+                        position: relative
+                        left: -5%
+                
+            

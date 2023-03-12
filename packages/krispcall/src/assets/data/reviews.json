@@ -1,0 +1,91 @@
+[
+    {  
+        "name": "Robert Smith", 
+        "title":"Business Development/ Tech and E-commerce",
+        "review": "KrispCall has been a great tool for my business. It’s become easy for our team to talk with each other and share contacts. We integrated our Slack account with KrispCall, so calling our clients has been easier."
+
+    },
+    {   
+        "name": "Olivia Morris",
+        "title":"Digital Marketing Director",
+        "review": "Overall call quality was great. Also call recordings are of high quality."
+
+    },
+    {  
+        "name": "Brad Monange", 
+        "title":"Product Designer",
+        "review": "Switching to KrispCall was a smooth experience. The guys at KrispCall were very helpful. They migrated our VoIP system quickly and also ported our numbers. I was afraid number porting would be a hassle but they resolved it quickly by giving temporary numbers that matched our old numbers until official porting was completed."
+
+    },
+    {   
+        "name": "Noah Williamson",
+        "title":"Growth and Strategy Consultant",
+        "review": "We have been getting quite a number of calls from the company website. Our sales team is happy getting to talk to potential clients who call from the website. Overall satisfied with the service."
+
+    },
+    {  
+        "name": "Betty Preston", 
+        "title":"Business Development Manager",
+        "review": "I have been using KrispCall for a few months and it’s so easy to manage contacts. I mostly use their mobile app to talk to clients. It’s like using any other chatting apps, very easy to navigate, call up contacts and look into contact history. KrispCall has been just great for handling client calls and passing calls down to my team."
+    },
+    {   
+        "name": "Grace Gurrero",
+        "title":"CEO / Upcorner",
+        "review": "Cheaper than PSTN phones with a lot more flexibility. My business has greatly benefitted from KrispCall’s cloud phone."
+    },
+    {   
+        "name": "Lily Meier",
+        "title":"Sales and Marketing Executive",
+        "review": "We recently purchased a bunch of KrispCall numbers for our marketing campaign. It was one of our best decisions. My team sent bulk SMS to our clients at so much lower prices than before. We also sent out SMS to our new locations in UK and the response was great. Definitely recommend getting international numbers from KrispCall."
+    },
+    {   
+        "name": "Faizi Rahardian",
+        "title":"Chief Operations Officer",
+        "review": "Was a bit skeptical about upgrading to VoIP but the team at KrispCall was great. We got the Enterprise Plan and they got us all features we needed to shift our PSTN contacts to KrispCall. Pricing was reasonable, and faced very few problems that the team resolved quite fast."
+    },
+    {   
+        "name": "Robert Jones",
+        "title":"Account Executive",
+        "review": "I liked that your contacts are updated in Salesforce automatically. Saved me a lot of time."
+    },
+    {   
+        "name": "Amanda Wong",
+        "title":"Independent Consultant",
+        "review": "Good choice if you travel a lot. Could connect with my team easily from mobile phone. Also some features are great for if you share clients and contacts. You get to see what’s happening with your clients in the app and work together with your team to get clients onboard."
+    },
+    {   
+        "name": "Conner Miles",
+        "title":"Sales Director",
+        "review": "Was working on a project with our marketing team and KrispCall made it super easy. Could create a new workspace and share and pin messages. Very handy and efficient."
+    },
+    {   
+        "name": "Branda Turner",
+        "title":"Senior Project Manager",
+        "review": "Calls are easily connected, no glitches yet. Good support team. Happy with the service."
+    },
+    {   
+        "name": "Jennifer Cooper",
+        "title":"Digital Marketer",
+        "review": "I liked that KrispCall offered MMS features. It was useful especially while reaching out to new clients. Also their app is very simple and clutter-free. Would recommend it if you are looking for features other than just standard calls."
+    },
+    {   
+        "name": "Charlotte Taylor",
+        "title":"Growth Marketing Manager",
+        "review": "Kudos to the team for coming up with a great app. I use their desktop app a lot and it pretty well manages the call and SMS info itself."
+    },
+    {   
+        "name": "Ross Zourgui",
+        "title":"Business System Analyst",
+        "review": "Great customer support. Keep it up!"
+    },
+    {   
+        "name": "Robert Scallion",
+        "title":"Tech Consultant",
+        "review": "KrispCall is great for talking to your team. All of us easily installed the apps in our cellphone and work laptop. Working from home was pretty much effortless with KrispCall and happily continuing with it now that I am back at the office."
+    },
+    {   
+        "name": "Jenny Zakaria",
+        "title":"Product Designer",
+        "review": "Good price for the service."
+    }
+]

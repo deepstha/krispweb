@@ -1,0 +1,105 @@
+.tag
+    font-size: 0.88rem
+    line-height: 0.88rem
+    background-color: $primary-100
+    color: $primary-color
+    padding: 8px 12px
+    @extend .border-r-20
+    @extend %capitalise
+    @extend %head-font
+    display: inline-block
+    &--primary
+        background-color: $primary-color
+        color: $white-color
+    &--no-bg
+        font-size: 1rem
+        line-height: 1.71
+        background-color: transparent
+        padding: 0
+        margin-bottom: 0.45rem
+        @extend %body-font
+        +desktop-mini
+            margin-bottom: 0.6429rem
+    &-icon
+        background: $info-100
+        padding: 1rem
+        @extend .border-r-10
+        border: 1px solid $info-200
+        @extend .icon
+        &.tag-icon--hasShadow
+            @extend %relative
+            &:before
+                height: 100%
+                width: 100%
+                +gradient(180deg, #ECE6F2 0%, rgba(236, 230, 242, 0) 100%)
+                @extend .border-r-10
+                @extend %absolute
+                @extend %content
+                top: 1px
+                left: 4px
+                z-index: -1
+        &.tag-download
+            height: 50px
+            width: 50px
+        .integration-phone-system &
+            width: 37px
+            height: 40px
+            padding: 0
+            @extend .item-center
+    &-switch
+        color: #4C9610
+        @extend %head-font
+        @extend %regular
+        padding: 6px 8px
+        +border-radius(5px)
+        margin: 0 0 10px
+        +fullhd
+            margin: 2px 0 10px
+    &-ribbon
+        @extend %absolute
+        font-size: 14px
+        background: #D7CCE4
+        color: #390179
+        line-height: 18px
+        top: 30px
+        left: 115px
+        transform: rotate(30deg)
+        padding: 10px 100px
+        @extend %head-font
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15)
+        @extend .text-center
+        +desktop-mini
+            font-size: 16px
+            top: 10px
+            left: 35px
+        +laptop
+            top: 20px
+            left: 80px
+        +fullhd
+            font-size: 18px
+            top: 30px
+            left: 115px
+    &-sm
+        height: 50px
+        width: 50px
+        +border-radius(12px)
+        background-repeat: no-repeat
+        background-position: center
+        +box-shadow(0px 6px 30px rgba(196, 196, 196, 0.25))
+        @extend .item-center
+        cursor: pointer
+        &--font
+            height: 61px
+            width: 61px
+            background-image: url('/src/assets/images/svg/icons/icon-font.svg')
+        &.absolute
+            @extend %absolute
+            right: 35px
+            bottom: -35px
+    &-bg
+        &__green
+            background-color: #EFF7E4
+        &__orange
+            background-color: #F4EBEA
+        &__pink
+            background-color: #FDEDFE

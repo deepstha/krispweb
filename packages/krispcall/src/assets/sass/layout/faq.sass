@@ -1,0 +1,103 @@
+@import '../components/accordionTab'
+.faq
+    padding: 40px 0
+    +tablet
+        padding: 50px 0
+    +desktop-mini
+        padding: 120px 0
+    +fullhd
+        padding: 150px 0
+    .accordion
+        +fullhd
+            padding-left: 38px
+    &-accordionTab
+        padding: 0 0 40px
+        +tablet
+            padding: 0 0 70px
+        +desktop-mini
+            padding: 60px 0 120px
+        .tabs__nav
+            padding-top: 112px  
+            top: 15px  
+    .accordion-item
+        margin-bottom: 0 !important
+        &__header
+            h5
+                margin-right: 30px
+                +tablet
+                    margin-right: 50px
+                +desktop-mini
+                    margin-right: 60px
+                +laptop
+                    margin-right: 74px
+        &__body
+            padding-right: 30px
+            +tablet
+                padding-right: 50px
+            +desktop-mini 
+                padding-right: 60px 
+            +laptop
+                padding-right: 74px
+    
+    &-inner 
+        .searchList
+            &__header
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+                padding-bottom: 1.875rem
+                margin-bottom: 2.25rem
+                .heading__title
+                    color: $text-800
+            &__items
+                h3 
+                    color: $gray-dark 
+                    margin-bottom: 26px
+        .accordion-item
+            &__body
+                padding-right: 30px
+                +tablet
+                    padding-right: 22px
+                +mobile-sm-max
+                    padding-right: 15px
+.info-wrap
+    color:  $text-600
+    margin-top: -10px
+    a   
+        color: $blue-color
+.feedback
+    margin-top: 15px
+    @extend %display-flex
+    +justify-content(space-between)
+    @extend .text-10
+    +mobile
+        gap: 100px
+        margin-top: 20px
+    +mobile-sm-max
+        gap: 10px
+    a
+        color: $info-default
+        &:hover
+            color: $primary-color
+    span
+        &:last-of-type
+            text-align: right
+    button  
+        background: transparent
+        border: 0
+        padding: 0
+        color: #A49FB4
+        @extend .text-small
+        line-height: 1.4
+        display: inline-flex
+        &:first-of-type
+            padding: 0 14px
+        &:last-of-type
+            +justify-content(flex-end)
+            .icon
+                +transform(rotate(180deg))
+                top: 3px 
+                @extend %relative
+        &:hover
+            color: $info-default
+        span
+            margin-right: 5px
+        

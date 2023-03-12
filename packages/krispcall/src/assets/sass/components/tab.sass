@@ -1,0 +1,108 @@
+@import '../base/base'
+@import '../components/accordion'
+@import '../layout/common/heading'
+@import '../layout/faq'
+.tabs
+    &__nav
+        border: none
+        position: sticky
+        cursor: pointer
+        top: 120px
+        .tabs-vertical &
+            +flex-direction(column)
+            padding-top: 8px
+            display: none
+            +desktop-mini
+                display: block
+            +laptop
+                padding-right: 10px
+        .offcanvas &
+            display: block
+            padding-top: 60px !important
+            position: static !important
+
+        .nav
+            &-item
+                margin-bottom: 20px
+                &:last-of-type
+                    margin-bottom: 1.7rem
+            &-link
+                line-height: 22px
+                padding: 2px 16px
+                border: solid transparent
+                border-width: 0 0 0 5px
+                @extend %medium
+                color: $text-400
+                @extend .text-9
+                @extend %head-font
+                +border-radius(0)
+                +transition(0.5s ease)
+                .offcanvas &
+                    color: $white-color
+                &.active, &:hover
+                    border-color: $text-800
+                    background-color: transparent
+                    color: $text-800
+                    .offcanvas &
+                        color: $white-color
+                        border-color: $white-color
+
+    &__content
+        +fullhd
+            max-width: 800px
+
+        &-item
+            @extend .text-9
+            color: $text-500
+            @extend %regular
+            line-height: 1.55
+            &:not(:last-of-type)
+                margin-bottom: 30px
+                +tablet
+                    margin-bottom: 60px
+            a
+                color: $primary-color
+                word-wrap: break-word
+            h2
+                @extend %semi-bold
+                margin-bottom: 16px
+                color: $gray-dark
+            h4
+                @extend %bold
+                @extend %body-font
+                margin-bottom: 35px
+            h3
+                @extend %head-font
+                @extend %semi-bold
+                margin-bottom: 16px
+                color: $text-600
+            ul + p, ol + p
+                margin-top: 30px
+            &:last-of-type
+                & > :last-of-type
+                    margin-bottom: 0
+            
+
+    &__stitle
+        display: block
+        margin-bottom: 28px
+.list
+    margin: 0 0 0 10px
+    padding-left: 15px
+    +tablet
+        margin: 0 0 0 18px
+        padding-left: 18px
+    li
+
+        padding-left: 10px
+        +tablet
+            padding-left: 18px
+        &:not(:last-of-type)
+            margin-bottom: 27px
+
+    &__alphabet,
+    &__alphabet li
+        list-style-type: lower-alpha
+    &__disc,
+    &__disc li
+        list-style-type: disc

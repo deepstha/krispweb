@@ -1,0 +1,228 @@
+.career
+    &-vacancy
+        padding: 40px 0
+        +tablet
+            padding-top: 46px
+            padding-bottom: 70px
+        +laptop
+            padding-bottom: 100px
+        .container
+            & > div:not(:first-of-type) + div
+                margin-top: 50px
+                +tablet
+                    margin-top: 80px
+                +laptop
+                    margin-top: 100px
+        
+        .form
+            &-group
+                width: 100%
+                +tablet
+                    width: 50%
+                    flex-basis: 300px
+        &__header
+            @extend %display-flex
+            +justify-content(space-between)
+            +flex-direction(column)
+            +align-items(center)
+            margin-bottom: 18px
+            +tablet
+                +justify-content(space-between)
+                +flex-direction(row)
+            .text
+                width: 100%
+                +tablet
+                    width: 50%
+                +desktop-mini
+                    max-width: 507px
+                +mobile
+                    margin-bottom: 17px
+                    text-align: center
+                h3
+                    margin-bottom: 4px
+                    color: $gray-700
+                    font-size: 1.75rem
+                    line-height: 1.36
+                p
+                    color: $gray-default
+                    line-height: 1.625
+        .vacancy-list
+            padding-left: 0
+            margin-bottom: 0
+            &__item
+                @extend %display-flex
+                +justify-content(space-between)
+                +align-items(center)
+                padding: 10px 0
+                border-bottom: 1px solid #E1E8F0
+                +tablet
+                    padding: 12px 0
+                +laptop
+                    padding: 16px 0
+            &__position
+                color: $primary-400
+            &__location
+                color: $gray-default
+                text-align: right
+                display: block
+                line-height: 1
+                +mobile
+                    margin-left: 12px
+                    line-height: 1.2
+        .accordion-item
+            &__header
+                h5
+                    color: $gray-700
+                &:after
+                    +tablet
+                        height: 32px
+                        width: 32px
+                        background-size: 32px 32px
+                &[aria-expanded="true"]
+                    &:after
+                        +transform(rotate(180deg))
+                p
+                    color: $gray-default
+    &-top
+        @extend %display-flex
+        +align-items(center)
+        border-bottom: 1px solid rgba(#000000, 0.1)
+        padding-bottom: 20px
+        margin-bottom: 20px
+        +tablet
+            +justify-content(space-between)
+            padding-bottom: 30px
+            margin-bottom: 35px
+        +mobile
+            +flex-direction(column)
+    &-inner
+        padding: 60px 0
+        &.hero-overlay
+            &:before
+                z-index: -1
+        h1
+            @extend %medium
+            color: $primary-900
+            @extend %body-font
+            line-height: 1.3125
+            margin: 15px 0 30px
+        .job
+            max-width: 842px
+            margin: 0 auto
+            +laptop
+                margin-left: 85px
+            .grid
+                padding: 30px 0
+                border-top: 1px solid rgba($black-color, 0.1)
+                +tablet
+                    padding: 40px 0 90px
+                +laptop
+                    padding: 60px 0 120px
+            .socials
+                padding-left: 0
+                +tablet
+                    +flex-direction(column)
+                    +align-items(center)
+                +mobile
+                    +display-flex
+                    +flex-direction(row)
+                    margin-bottom: 30px
+                li
+                    &:not(:last-of-type)
+                        +mobile
+                            margin-right: 14px
+                        +tablet
+                            margin-bottom: 20px
+            &-description__content
+                +laptop
+                    padding-left: 13px
+                h2
+                    color: $gray-dark
+                    @extend %body-font
+                ul
+                    padding-left: 33px
+            .btn-wrap
+                margin-top: 60px
+                +mobile-sm-max
+                    +flex-wrap(wrap)
+                .btn
+                    +border-radius(5px)
+                    padding: 15px 31px
+                    &-outline
+                        border-color: #007BB6
+                        color: #007BB6
+                    & + .btn
+                        +laptop
+                            margin-left: 60px
+.grid
+    @extend %display-flex
+    +mobile
+        +flex-wrap(wrap)
+    &__item
+        @extend %head-font
+        +desktop-max
+            width: 25%
+        +mobile
+            width: 50%
+            margin-bottom: 28px
+        &:not(:first-of-type)
+            +desktop-mini
+                margin-left: 100px
+            +laptop
+                margin-left: 132px
+        span
+            display: block
+            &:first-of-type
+                color: $text-500
+                @extend %bold
+                margin-bottom: 0.9375rem
+                line-height: 1
+            &:last-of-type
+                color: $gray-700
+                @extend %semi-bold
+                @extend .text-9
+                line-height: 0.89
+
+.form-wrapper
+    h2
+        @extend .text-8
+        line-height: 1
+        color: $text-900
+        @extend %body-font
+        @extend %regular
+        margin-bottom: 60px
+        span
+            @extend %bold
+    .mw-818
+        max-width: 818px
+    &--career
+        .triangle
+            border-top: 2px solid #B39ECB
+            margin-top: 16px
+            padding: 107px 0 120px
+            &:before
+                bottom: auto
+                top: -11px
+                left: 36%
+                width: 22px
+                height: 22px
+                border-width: 2px
+                border-left-color: #B39ECB
+                border-top-color: #B39ECB
+                background-color: $white-color
+        .form-row
+            +desktop-mini
+                margin: 0 -29.5px
+            [class*='col-']
+                +desktop-mini
+                    padding: 0 29.5px
+        textarea
+            min-height: 220px
+        .btn-wrap
+            margin-top: 43px
+
+        
+
+                
+
+

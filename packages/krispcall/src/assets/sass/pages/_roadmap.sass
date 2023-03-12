@@ -1,0 +1,63 @@
+.timeline
+    padding-left: 3.0714rem
+    +desktop-max
+        padding-top: 20px
+    .date
+        color: $primary-500
+        @extend %bold
+        @extend %head-font
+        @extend .text-9
+        display: inline-block
+        line-height: 1
+        margin-bottom: 1rem
+        +mobile
+            font-size: 1rem
+            margin-bottom: 0.75rem
+    &__item
+        @extend %relative
+        padding-bottom: 30px
+        +tablet
+            padding-bottom: 45px
+        +desktop-mini
+            padding-bottom: 61px
+        &:before,
+        &:after
+            @extend %content
+            @extend %absolute
+        &:before
+            // background: url('/src/assets/images/svg/icons/icon-checkbox-circle-green.svg') no-repeat center
+            background-size: 18px 18px
+            height: 18px
+            width: 18px
+            left: -43px
+            top: 0
+        &:not(:last-of-type)
+            &:after
+                width: 2px
+                height: calc(100% - 36px)
+                background-color: $text-300
+                left: -35px
+                top: 26px
+    &__heading
+        @extend .text-6
+        @extend %bold
+        color: $text-700
+        line-height: 1.2
+        margin-bottom: 16px
+        +desktop-mini
+            line-height: 2.08
+            margin-bottom: 0
+            font-size: 2rem
+    &__list
+        margin-bottom: 0
+        padding-left: 20px
+        li
+            color: $text-500
+            @extend .text-10
+            line-height: 1
+            &:not(:last-of-type)
+                margin-bottom: 14px
+
+.roadmap
+    +desktop-max
+        padding-top: 0

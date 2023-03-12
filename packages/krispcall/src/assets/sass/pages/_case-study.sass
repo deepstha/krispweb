@@ -1,0 +1,80 @@
+.case
+    padding-bottom: 0
+    &-item
+        padding-bottom: 40px
+        +tablet
+            padding-bottom: 70px
+        +laptop
+            padding-bottom: 120px
+        &__info
+            +desktop-mini
+                max-width: 520px
+            +desktop-max
+                padding-top: 20px
+            h5
+                margin: 14px 0 0
+                line-height: 1.33
+                color: $primary-900
+                +desktop-mini
+                    max-width: 516px
+                a
+                    color: $primary-900 !important
+            p
+                margin: 15px 0 20px
+                line-height: 1.5
+                +tablet
+                    margin: 30px 0 
+        &:nth-of-type(odd)
+            .case-item__info
+                +desktop-mini
+                   margin-left: auto
+            .case-item__img 
+                +desktop-mini
+                    +border-radius(20px 0 0 20px)
+        &:nth-of-type(even)
+            [class*="col-"]
+                &:first-of-type
+                    +desktop-mini
+                        order: 1
+            .case-item
+                &__img
+                    margin-left: auto !important
+                    +desktop-mini
+                        +border-radius(0 20px 20px 0)
+        &:nth-of-type(2)
+            .case-item
+                &__img
+                    padding-bottom: 0
+                    +align-items(flex-end)
+        &__img
+            width: 100%
+            @extend %overflow
+            @extend .item-center
+            padding: 30px 30px 10px
+            height: 100%
+            +laptop
+                width: 660px
+                height: 460px
+                padding: 0
+            +desktop-max
+                +border-radius(20px)
+    &-inner
+        @extend .hero-overlay
+        &:before
+            height: 50.75%
+            z-index: -1
+    &-loadmore .btn, .preloader
+        margin-bottom: 40px
+        +tablet
+            margin-bottom: 70px
+        +laptop
+            margin-bottom: 120px
+.blockquote
+    background-color: $text-50
+    border-left: 2.5px solid $primary-500
+    padding: 32px 45px 32px 43px
+    p
+        margin: 0
+        color: $text-500
+        @extend %medium
+

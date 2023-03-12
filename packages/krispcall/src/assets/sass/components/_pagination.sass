@@ -1,0 +1,17 @@
+.navigation
+    .nav
+        &-links
+            @extend .flex-between
+            &>div
+                max-width: 300px
+                @extend %relative
+    &-next
+        text-align: right
+    &-prev,
+    &-next
+        h6
+            @extend %medium
+            @extend %body-font
+            color: $text-default
+    +desktop-max
+        margin-top: 30px

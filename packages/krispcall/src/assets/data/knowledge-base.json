@@ -1,0 +1,1177 @@
+[
+    {
+        "heading" : "General",
+        "content":[
+            {
+                "icon" : "power-button",
+                "title":"Getting Started",
+                "info" : "Learn more about articles we have",
+                "link" : "getting-started",
+                "list":[
+                    {
+                        "qn": "How can I check the status of my number activation Process?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"How to upload image icon?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"How to upload the address proof after I bought the number?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"What are the features for the telephony?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"Is KrispCall is better than other service provider?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Is there International Call feature?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "help",
+                "title":"FAQ",
+                "info" : "Learn more about articles we have",
+                "link" : "faq",
+                "list":[
+                    {
+                        "qn": "What is KrispCall?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to setup your browser to work with KrispCall?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Confirming your KrispCall Invitation",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to setup your browser to work with KrispCall?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "solutions",
+                "title" :"Integrations",
+                "info" : "Learn more about articles we have",
+                "link" : "integrations",
+                "list":[
+                    {
+                        "qn": "How to integrate KrispCall with Mircrosoft team?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to integrate KrispCall with custom application?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to integrate KrispCall with Salesforce?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"How to integrate KrispCall with Mircrosoft team?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "settings",
+                "title" :"How KrispCall works?",
+                "info" : "Learn more about articles we have",
+                "link" : "how-krispcall-works",
+                "list":[
+                    {
+                        "qn":"How to make calls form browser?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"How to buy number??",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"How to add user?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to make calls form browser?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "operator",
+                "title":"TroubleShooting",
+                "info" : "Learn more about articles we have",
+                "link" : "troubleshotting",
+                "list":[
+                    {
+                        "qn":"How to clear Cache and Cookies in Chrome?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Not able to call from office internet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "heading" : "Telephony",
+        "content":[
+            {
+                "icon" : "record-circle",
+                "title":"Call Recording",
+                "info" : "Learn more about articles we have",
+                "link" : "call-recording",
+                "list":[
+                    {
+                        "qn":"How Call Recording Works?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"How to disable Call Recordings?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to check that whether call recording was paused during call?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What are the features for the telephony?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Is KrispCall is better than other service provider?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":  "Is there International Call feature?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "phone-camera",
+                "title" : "Call Conference",
+                "info" : "Learn more about articles we have",
+                "link" : "call-conference",
+                "list":[
+                    {
+                        "qn":  "What is Call Conference?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to enable Call Coneference?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to use Call Conference?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is Call Conference?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }   
+                ]
+            },
+            {
+                "icon" : "cellphone",
+                "title" : "Speed Dial",
+                "info" : "Learn more about articles we have",
+                "link" : "speed-dial",
+                "list":[
+                    {
+                        "qn":  "What is Speed Dial?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to integrate KrispCall with custom application?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to integrate KrispCall with Salesforce?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to integrate KrispCall with custom application?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    } 
+                ]
+            },
+            {
+                "icon" : "phone-call",
+                "title" :"Call Transfer",
+                "info" : "Learn more about articles we have",
+                "link" : "call-transfer",
+                "list":[
+                    {
+                        "qn":"What is Call Transfer?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to buy number??",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":  "How to add user?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is Call Transfer?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }  
+                ]
+            },
+            {
+                "icon" : "voicemail",
+                "title" : "VoiceMail",
+                "info" : "Learn more about articles we have",
+                "link" : "voicemail",
+                "list":[
+                    {
+                        "qn":"What is VoiceMail?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":  "Not able to call from office internet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }  
+                ]
+            },
+            {
+                "icon" : "surgical-mask",
+                "title" :"Call Masking",
+                "info" : "Learn more about articles we have",
+                "link" : "call-masking",
+                "list":[
+                    {
+                        "qn": "What is Call Masking?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Not able to call from office internet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }    
+                ]
+            },
+            {
+                "icon" : "price-tag",
+                "title" : "International Number Tags",
+                "info" : "Learn more about articles we have",
+                "link" : "international-number-tags",
+                "list":[
+                    {
+                        "qn": "What is International Number Tags?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Not able to call from office internet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is International Number Tags?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }  
+                ]
+            },
+            {
+                "icon" : "24-hours",
+                "title":"Business Hour",
+                "info" : "Learn more about articles we have",
+                "link" : "business-hour",
+                "list":[
+                    {
+                        "qn": "What is Business Hour?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Not able to call from office internet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }  
+                ]
+            },
+            {
+                "icon" : "cloud-phone",
+                "title" : "Cloud Phone",
+                "info" : "Learn more about articles we have",
+                "link" : "cloud-phone",
+                "list":[
+                    {
+                        "qn": "What is Cloud Phone?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Not able to call from office internet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }                      
+                ]
+            },
+            {
+                "icon" : "align-v",
+                "title" :"Internal Call/Extension",
+                "info" : "Learn more about articles we have",
+                "link" : "internal-call-extension",
+                "list":[
+                    {
+                        "qn": "What is Internal Call/Extension?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":"How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Not able to call from office internet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is Internal Call/Extension?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }   
+                ]
+            }
+        ]
+    },
+    {
+        "heading" : "Business Phone",
+        "content":[
+            {
+                "icon" : "phone-camera",
+                "title":"Caller Based Routing",
+                "info" : "Learn more about articles we have",
+                "link" : "caller-based-routing",
+                "list":[
+                    {
+                        "qn": "What is Caller Based Routing?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How Call recording works?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to disable Call Recordings??",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What are the features for the telephony?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    } 
+                ]
+            },
+            {
+                "icon" : "circle-underline",
+                "title":"Ring Group",
+                "info" : "Learn more about articles we have",
+                "link" : "ring-group",
+                "list":[
+                    {
+                        "qn": "What is Ring Group?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to enable Ring Group?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How Ring Group Works?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to enable Ring Group?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }    
+                ]
+            },
+            {
+                "icon" : "current",
+                "title" :"Power Dialer",
+                "info" : "Learn more about articles we have",
+                "link" : "power-dialer",
+                "list":[
+                    {
+                        "qn": "What is Power Dialer?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to use Power Dialer?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to filter Power Dialer Calls?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is Power Dialer?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }   
+                ]
+            },
+            {
+                "icon" : "list-unordered",
+                "title" :"Call Queuing",
+                "info" : "Learn more about articles we have",
+                "link" : "call-queuing",
+                "list":[
+                    {
+                        "qn": "What is Call Queuing?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to use Call Queuing?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What are the charges for Call Queuing?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to use Call Queuing?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    } 
+                ]
+            },
+            {
+                "icon" : "phone-lock",
+                "title":"Auto Switch",
+                "info" : "Learn more about articles we have",
+                "link" : "auto-switch",
+                "list":[
+                    {
+                        "qn": "What is Auto Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to use Auto Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What are the difference between Auto Switch and& Smart Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is Auto Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    } 
+                ]
+            },
+            {
+                "icon" : "globe",
+                "title":"Global Connect",
+                "info" : "Learn more about articles we have",
+                "link" : "global-connect",
+                "list":[
+                    {
+                        "qn": "Importance of Global Connect?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is Global Connect?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I user Global Connect?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is Global Connect?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }  
+                ]
+            },
+            {
+                "icon" : "switch",
+                "title":"Smart Switch",
+                "info" : "Learn more about articles we have",
+                "link" : "smart-switch",
+                "list":[
+                    {
+                        "qn":  "What is Smart Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":  "Importance of Smart Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to enable Smart Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Importance of Smart Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }  
+                ]
+            },
+            {
+                "icon" : "list-unordered",
+                "title":"Skill Based Routing",
+                "info" : "Learn more about articles we have",
+                "link" : "skill-based-routing",
+                "list":[
+                    {
+                        "qn":  "What is Skill-Based Routing?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What is Skill-Based Routing?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }   
+                ]
+            },
+            {
+                "icon" : "user-voice",
+                "title":"IVR(Interactive Voice Response)",
+                "info" : "Learn more about articles we have",
+                "link" : "ivr",
+                "list":[
+                    {
+                        "qn": "What is IVR?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to set Multilingual IVR?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Set up IVR system?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":  "How to set Multilingual IVR?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    } 
+                ]
+            },
+            {
+                "icon" : "user-voice",
+                "title":"Call Feedback",
+                "info" : "Learn more about articles we have",
+                "link" : "call-feedback",
+                "list":[
+                    {
+                        "qn": "How to clear Cache and Cookies in Chrome?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How can I log me out from all the mobile devices at once?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Not able to call from office internet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to clear Cache and Cookies in Chrome?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    } 
+                ]
+            }
+        ]
+    },
+    {
+        "heading" : "Krispcall Application",
+        "content":[
+            {
+                "icon" : "android",
+                "title":"KrispCall Android App",
+                "info" : "Learn more about articles we have",
+                "link" : "krispcall-android-app",
+                "list":[
+                    {
+                        "qn": "Why I am not receiving any call on my android phone?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to download KrispCall Android Application?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to download KrispCall Android Application?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    } 
+                ]
+            },
+            {
+                "icon" : "apple",
+                "title":"KrispCall IOS Application",
+                "info" : "Learn more about articles we have",
+                "link" : "krispcall-ios-application",
+                "list":[
+                    {
+                        "qn":  "How to download KrispCall IOS Application?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Why I am not getting missed call notification on my IOS app?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":  "How Ring Group Works?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How Ring Group Works?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    } 
+                ]
+            },
+            {
+                "icon" : "computer",
+                "title" :"KrispCall Desktop App",
+                "info" : "Learn more about articles we have",
+                "link" : "krispcall-desktop-app",
+                "list":[
+                    {
+                        "qn": "Does KrispCall have a desktop application for window?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to force reload the KrispCall desktop app?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What are the difference between Auto Switch and& Smart Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to force reload the KrispCall desktop app?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "dialpad",
+                "title" :"Dialer",
+                "info" : "Learn more about articles we have",
+                "link" : "dialer",
+                "list":[
+                    {
+                        "qn":  "KrispCall dialer and it’s functionalities?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What are the difference between Auto Switch and& Smart Switch?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "KrispCall dialer and it’s functionalities?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "heading" : "Solution",
+        "content":[
+            {
+                "icon" : "phone-to-internet",
+                "title":"Cloud Telephony",
+                "info" : "Learn more about articles we have",
+                "link" : "cloud-telephony",
+                "list":[
+                    {
+                        "qn":  "What is Cloud Telephony",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Usage of Cloud Telephony?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "What are the features for the telephony?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Is there International Call feature?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "phone-ringing",
+                "title":"Call Center Software",
+                "info" : "Learn more about articles we have",
+                "link" : "call-center-software",
+                "list":[
+                    {
+                        "qn": "What is Call Center Software?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Importance of Call Center Software",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "contacts",
+                "title" :"Contact Center Software",
+                "info" : "Learn more about articles we have",
+                "link" : "contact-center-software",
+                "list":[
+                    {
+                        "qn": "What is Contact Center Software?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to set Contact Center Software?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "discount",
+                "title" :"Sales Dialer",
+                "info" : "Learn more about articles we have",
+                "link" : "sales-dialer",
+                "list":[
+                    {
+                        "qn": "What is Sales Dialer?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to use Sales Dialer?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "automation",
+                "title":"Sales Automation",
+                "info" : "Learn more about articles we have",
+                "link" : "sales-automation",
+                "list":[
+                    {
+                        "qn": "What is Sales Automation?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "How to set Sales Automation?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            },
+            {
+                "icon" : "customer",
+                "title":"CRM Phone System",
+                "info" : "Learn more about articles we have",
+                "link" : "crm-phone-system",
+                "list":[
+                    {
+                        "qn": "What is CRM Phone System?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn":  "Importance of CRM Phone System?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    },
+                    {
+                        "qn": "Lorem Ipsum dolor sit amet?",
+                        "date" : "18 May 2021",
+                        "link":"knowledge-base-inner.html",
+                        "desc" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper maecenas urna dolor quis. Exercitation veniam consequat sunt nostrud amet."
+                    }
+                ]
+            }
+        ]
+    }
+]

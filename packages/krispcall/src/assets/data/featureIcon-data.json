@@ -1,0 +1,283 @@
+[
+    {
+        "title":"The ultimate phone system for small and large business.",
+        "paragraph":"The only virtual cloud phone system with a rich set of features that meet your business needs. Fast, affordable, scalable, and suitable for all businesses, irrespective of their size.",
+        "type" : "phone-system",
+        "list":[
+            {   
+                "image": "workplace",
+                "title": "Workplace",
+                "text": "A feature-packed dashboard where contacts & conversations are easy to find and features in the workspace easy to navigate."
+            },
+            {   
+                "image": "users",
+                "title": "Team",
+                "text": "Invite contacts, create your team, assign them numbers, schedule meetings with them, and monitor them in real-time without a hassle."
+            },
+            {   
+                "image": "intl-numbers",
+                "title": "Int'l Numbers",
+                "text": "Expand your business worldwide and earn trust from overseas prospects with an international number. Getting Int’l numbers is fast & easy with KrispCall."
+            },
+            {   
+                "image": "hour",
+                "title": "Business Hours",
+                "text": "Define your business hours to get your calls automatically routed to voicemail or another destination during non-business hours."
+            },
+            {   
+                "image": "recording",
+                "title": "Call Recording",
+                "text": "Record the calls from your clients to hear about their requirements & feedbacks and finally deliver what they precisely wanted."
+            },
+            {   
+                "image": "internal-call",
+                "title": "Internal Call/Extensions",
+                "text": "No hassle of remembering phone numbers and extensions. You can connect with your colleagues easily through their names."
+            },
+            {   
+                "image": "toll-free",
+                "title": "Toll Free Numbers",
+                "text": "Use international toll-free numbers to provide toll-free calling between countries, so your global clients can reach you at no expense."
+            }
+        ]
+    },
+    {
+        "title":"Call features",
+        "paragraph":"Access advanced call management, call routing, and analytics solutions with our top-end features.",
+        "type" : "call-features",
+        "list":[
+                {   
+                    "image": "global-calling",
+                    "title": "Global Calling",
+                    "text": "Expand your customer base worldwide with our global calling features for making instant calls across borders."
+                },
+                {   
+                    "image": "call-hold",
+                    "title": "Calls on Hold",
+                    "text": "Keep the calls on hold to get further support/assistance for the clients whenever necessary, without losing their calls."
+                },
+                {   
+                    "image": "call-transfer",
+                    "title": "Call Transfer",
+                    "text": "Instantly route customer calls to another line or agent who can better deal with their queries. Don’t keep your clients waiting."
+                },
+                {   
+                    "image": "call-history",
+                    "title": "Call History",
+                    "text": "View the entire conversation history, incoming and outgoing call logs, and messages in one unified dashboard."
+                },
+                {   
+                    "image": "call-filters",
+                    "title": "Call Filters",
+                    "text": "Narrow down the call logs with our call filters. Efficiently screen through your incoming, outgoing, and missed calls."
+                },
+                {   
+                    "image": "call-recording",
+                    "title": "Call Recording",
+                    "text": "Record calls to monitor client requests and team performance. Use recorded calls as a guide for improving customer service and employee training."
+                },
+                {   
+                    "image": "call-monitoring",
+                    "title": "Call Monitoring",
+                    "text": "Use our call monitoring feature and listen to phone calls in real-time for giving training and feedback to your team. "
+                },
+                {   
+                    "image": "caller-id",
+                    "title": "Caller ID",
+                    "text": "Set location-based caller IDs for outbound international calls. Localize your number to improve the chances of reaching potential customers in new markets."
+                },
+                {   
+                    "image": "dnd-agents",
+                    "title": "DND mode for Agents",
+                    "text": "Switch to the Do Not Disturb mode and automatically shift incoming calls to voicemails to increase your focus on the work at hand."
+                },
+                {   
+                    "image": "contact-tags",
+                    "title": "Contact Tags",
+                    "text": "Sort clients and teams using the contact tags feature. Tag contacts to customize your dashboard for better navigation."
+                },
+                {   
+                    "image": "voicemail",
+                    "title": "Voicemail",
+                    "text": "Don’t lose touch with your clients when you are unavailable. Allow clients to drop you a voicemail so their queries never go missing."
+                },
+                {   
+                    "image": "voicemailDrop",
+                    "title": "Voicemail Drop",
+                    "text": "Our voicemail drop option provides your clients the flexibility to drop you a voicemail instead of calling you, based on their preference."
+                }
+            ]
+
+    },
+    {
+        "title":"Intelligent call routing",
+        "paragraph":"Automate tedious call handling processes with KrispCall's intelligent call routing features. Save employee and customers' time for happier teams and clients.",
+        "type" : "intelligent-call",
+        "list":[
+                {   
+                    "image": "forward-calls",
+                    "title": "Forward to Cell Phones and Landlines",
+                    "text": "Instantly route business calls to your cellphones and landlines whenever necessary. Make sure you are not missing out on clients when not in the office."
+                },
+                {   
+                    "image": "call-ideal-team",
+                    "title": "Call to ideal team",
+                    "text": "Reduce call processing times for your clients. Use our IVR and call sequencing function to ensure calls are directed to most ideal team members."
+                },
+                {   
+                    "image": "custom-greeting",
+                    "title": "Custom Greeting",
+                    "text": "Enhance the calling experience for your clients. Record personalized greeting messages, so your customers feel comfortable during calls."
+                },
+                {   
+                    "image": "business-hours",
+                    "title": "Business Hours",
+                    "text": "Never miss a client call. Automate call routing to pre-selected locations, so customer calls are automatically routed to offices that are open."
+                },
+                {   
+                    "image": "power-dialer",
+                    "title": "Power Dialer",
+                    "text": "Use our power dialer to speed up sales calls. KrispCall’s power dialer lets you immediately move to the next call in the list, saving you the time to dial numbers."
+                }
+            ]
+
+    },
+    {
+        "title":"SMS Features",
+        "paragraph":"Get in touch with your customers through texts and messaging. Carry out mass-advertising campaigns with KrispCall’s hassle-free texting solutions and improve your brand awareness.",
+        "type" : "sms-features",
+        "list":[
+                {   
+                    "image": "sms",
+                    "title": "SMS",
+                    "text": "Ensure faster response by receiving and sending personalized text messages to your clients and customers."
+                },
+                {   
+                    "image": "bulk-sms",
+                    "title": "Bulk SMS",
+                    "text": "Use our bulk SMS feature to broadcast messages and updates to a large group of customers within seconds. Extend reach of your mass marketing campaigns."
+                },
+                {   
+                    "image": "conversation-pin",
+                    "title": "Conversation PIN",
+                    "text": "Conversation pins help you see high priority texts at the top of your chat box. Pin important conversations for easy access and faster response."
+                },
+                {   
+                    "image": "message-filter",
+                    "title": "Message Filter",
+                    "text": "Filter your text messages using our message filter option. Message filter helps you screen important messages that require immediate action."
+                },
+                {   
+                    "image": "sms-bot",
+                    "title": "SMS BOT",
+                    "text": "Automate your customer support using an SMS Bot. Our SMS Bot helps you efficiently answer customer queries and improves response time."
+                },
+                {   
+                    "image": "speech-text",
+                    "title": "Speech to text",
+                    "text": "For faster texting, use our speech-to-text feature. KrispCall lets you transcribe your audio into text with high accuracy."
+                },
+                {   
+                    "image": "message-pin",
+                    "title": "Message PIN",
+                    "text": "Pin important messages so you can access them easily when required. Pinning messages help you and your team identify valuable information during client interactions."
+                },
+                {   
+                    "image": "message-starred",
+                    "title": "Message Starred",
+                    "text": "Use our message star feature to bookmark important messages so you can instantly access them when required."
+                }
+            ]
+
+    },
+    {
+        "title":"Admin Features",
+        "paragraph":"KrispCall’s admin features allow the admins to manage and customize their workspace with different options for adding team members, forming groups, importing contacts, and viewing team activity.",
+        "type" : "admin-features",
+        "list":[
+                {   
+                    "image": "access-levels",
+                    "title": "Access Levels - Members",
+                    "text": "Customize the level of access your team members get with KrispCall’s advanced admin features."
+                },
+                {   
+                    "image": "members-group",
+                    "title": "Members Group",
+                    "text": "Form different teams in your workspace to better segment and manage operations. Send invitations, add or remove teams, and control activity of the member group with KrispCall."
+                },
+                {   
+                    "image": "developer-api",
+                    "title": "Developer API",
+                    "text": "Use our feature rich API for developers. Customize your workspace to suit your business needs with KrispCall’s developer API."
+                },
+                {   
+                    "image": "integrations",
+                    "title": "Integrations",
+                    "text": "Integrate your KrispCall workspace with third-party CRM systems to gain powerful insights with customer data analytics."
+                },
+                {   
+                    "image": "android-ios-apps",
+                    "title": "Android and iOS Apps",
+                    "text": "KrispCall app is available for both Android and iOS systems. Our easy-to-use mobile app makes working on mobile phones simple and hassle-free."
+                },
+                {   
+                    "image": "windows-apps",
+                    "title": "Windows, Mac and Linux Apps",
+                    "text": "KrispCall runs smoothly on Windows, Mac, and Linux. Get the best user experience with KrispCall’s desktop app."
+                },
+                {   
+                    "image": "google-chrome-extension",
+                    "title": "Google Chrome Extension",
+                    "text": "With KrispCall’s Google Chrome extension, you can easily switch to your workspace for making calls."
+                }
+            ]
+
+    },
+    {
+        "title":"More Features ",
+        "type" : "more-features",
+        "list": [
+            {   
+                "image": "cloud-telephony",
+                "title": "Cloud Telephony",
+                "text": "Move your phone system to the cloud with KrispCall’s cloud telephony. Set up a unified communication system with top-line business features using KrispCall."
+            },
+            {   
+                "image": "call-center-software",
+                "title": "Call Center Software",
+                "text": "Minimize your call center overheads with KrispCall’s low-cost and customizable call center software. Get a premium calling experience with our feature-rich platform."
+            },
+            {   
+                "image": "contact-center-software",
+                "title": "Contact Center Software",
+                "text": "Set up a virtual contact center and elevate your customer service with KrispCall. Simplify multi-channel communication with customers using our solution."
+            },
+            {   
+                "image": "sales-dialer",
+                "title": "Sales Dialer",
+                "text": "Speed up sales calls with KrispCall’s sales dialer tool. Automate and manage call dialing processes to connect with leads and raise your team productivity."
+            },
+            {   
+                "image": "sales-automation",
+                "title": "Sales Automation",
+                "text": "Enhance your sales metrics and sales team efficiency using KrispCall’s sales automation. Automate call routing and sales processes for higher lead conversions."
+            },
+            {   
+                "image": "crm-phone-system",
+                "title": "CRM Phone System",
+                "text": "Integrate your existing CRM systems with KrispCall to keep track of your team and customer activity. Improve customer satisfaction with our advanced call analytics."
+            },
+            {   
+                "image": "capture-leads-on-website",
+                "title": "Capture Leads on Website",
+                "text": "Convert website visitors to potential clients using KrispCall’s click-to-call widget. Drive lead conversion process with one-click calling and 30 seconds callback features."
+            },
+            {   
+                "image": "sales-calls-from-website",
+                "title": "Sales Calls from Website",
+                "text": "Receive sales calls from your website with our click-to-call widget. Seamlessly connects potential clients to your sales team with a personalized KrispCall widget."
+            }  
+
+        ]
+    }
+]

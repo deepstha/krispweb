@@ -1,0 +1,101 @@
+[
+    {
+        "image":"salesforce.png",
+        "category":"Help Desk",
+        "type" : "Sales Automation",
+        "title": "Salesforce",
+        "link": "/integration/salesforce-crm",
+        "color" : "#EBF9FF",
+        "desc" : "Track data, manage workflow & ensure customer satisfaction",
+        "height" : "66",
+        "width" : "92"
+    },
+    {
+        "image":"pipedrive.png",
+        "category":"Help Desk",
+        "type" : "Sales Automation",
+        "title": "Pipedrive",
+        "link": "/integration/pipedrive-crm",
+        "color" : "#F3F3F3",
+        "desc" : "Get more qualified leads and grow your business",
+        "height" : "88",
+        "width" : "132"
+    },
+    {
+        "image":"agile.png",
+        "category":"CRM",
+        "type" : "CRM",
+        "title": "Agile CRM",
+        "link": "/integration/agile-crm",
+        "color" : "#EEF6FF",
+        "desc" : "Accelerate marketing process & generate more business sales",
+        "height" : "71",
+        "width" : "92"
+    },
+    {
+        "image":"hubspot.png",
+        "category":"CRM",
+        "type" : "CRM",
+        "title": "Hubspot",
+        "link": "/integration/hubspot-crm",
+        "color" : "#FFF4ED",
+        "desc" : "Advanced call analytics, better lead reporting & AI automation",
+        "height" : "60",
+        "width" : "162"
+    },
+    {
+        "image":"infusionsoft.png",
+        "category":"CRM",
+        "type" : "CRM",
+        "title": "Infusionsoft CRM",
+        "link": "/integration/infusionsoft-crm",
+        "color" : "#DEFCD1",
+        "desc" : "Ensure effective business tracking and cross-use analytics",
+        "height" : "130",
+        "width" : "172"
+    },
+    {
+        "image":"zoho.png",
+        "category":"CRM",
+        "type" : "CRM",
+        "title": "Zoho CRM",
+        "link": "/integration/zoho-crm",
+        "color" : "rgba(243, 173, 30, 0.2)",
+        "desc" : "Attain shorter lead response time & better call management",
+        "height" : "100",
+        "width" : "100"
+    },
+    {
+        "image":"slack.png",
+        "category":"Others",
+        "type" : "Productivity",
+        "title": "Slack",
+        "link": "/integration/slack",
+        "color" : "#FFF4F8",
+        "desc" : "Connect with clients & maintain your business communications",
+        "height" : "71",
+        "width" : "171"
+    },
+    {
+        "image":"microsoft-teams.png",
+        "category":"others",
+        "type" : "Productivity",
+        "title": "Microsoft Teams",
+        "link": "/integration/microsoft-teams",
+        "color" : "#DADCFF",
+        "desc" : "Unleash multilevel auto attendants, call transfer, and call queues",
+        "height" : "64",
+        "width" : "90"
+    },
+    {
+        "image":"zendesk.png",
+        "category":"Help Desk",
+        "type" : "Help Desk",
+        "title": "Zendesk",
+        "link": "/integration/zendesk",
+        "color" : "#F0FCFE",
+        "desc" : "Capture customer interactions into one cloud-based platform",
+        "height" : "73",
+        "width" : "102"
+    }
+]

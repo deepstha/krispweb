@@ -1,0 +1,56 @@
+@import '../base/base'
+
+.reviews
+    padding: 0 0 20px
+    +tablet
+        padding: 70px 0 40px
+    +desktop-mini
+        padding: 80px 0
+    .heading
+        margin-bottom: 2.5rem
+    &__img
+        margin: 13px 0 24px !important
+        height: 16px
+    .card
+        +box-shadow(0px 4px 14px rgba(35, 30, 36, 0.05))
+        &-bordered
+            border: 1px solid $text-200
+        &-grid
+            max-width: 68.75rem
+            margin: 0 auto
+            .card
+                flex-shrink: 1
+                @extend .text-center
+                padding: 20px 16px 
+                @extend %head-font
+                flex-basis: calc(96%/2)
+                +tablet
+                    flex-basis: calc(88%/3)
+                +desktop-max
+                    margin-bottom: 30px
+                +mobile-sm-max
+                    margin-bottom: 20px
+                +desktop-mini
+                    flex-basis: calc(90%/6)
+                +laptop
+                    flex-basis: 9.375rem
+                figure
+                    margin-bottom: 10px
+                span
+                    color: $text-800
+                    display: inline-block
+                    line-height: 1
+                a
+                    color: #1A63F4
+                    display: inline-block
+                    line-height: 1
+                    text-decoration: underline #1A63F4 solid 0.1px !important
+                    @extend %body-font
+    &-customer
+        padding: 50px 0 20px
+        +tablet 
+            padding: 70px 0 50px
+        +desktop-mini
+            padding: 90px 0 
+        +fullhd
+            padding: 115px 0 120px

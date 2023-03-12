@@ -1,0 +1,373 @@
+//base layout
+@import '../base/base'
+@import '../components/buttons'
+@import '../layout/banner'
+@import '../components/tag'
+@import '../components/accordion'
+.pricing-hero
+    @extend .hero-overlay
+    background: none
+    &:before
+        z-indeX: -1
+        height: 330%
+    .hero-panel__content
+        max-width: 450px
+        padding: 40px 0 30px
+        +tablet
+            padding: 60px 0 30px
+        +laptop
+            padding: 60px 0
+        +fullhd
+            max-width: 552px
+
+.pricing
+    padding-top: 20px
+    +desktop-mini
+        padding-top: 75px
+    max-height: 600px
+    position: relative
+    overflow: hidden
+    transition: max-height 0.8s cubic-bezier(0, 1, 0, 1)
+    +desktop-mini
+        max-height: 955px
+    &.full-height
+        max-height: 5000px
+        transition: max-height .8s ease-in-out
+    &__filter
+        margin-bottom: 40px
+        +desktop-mini
+            margin-bottom: 90px
+        .filter-switch
+            h5
+                color: $primary-color
+            .custom-switch
+                padding-left: 75px
+                padding-right: 50px
+                +mobile-sm-max
+                    padding-left: 65px
+                    padding-right: 35px
+
+    &__sm
+        .nav
+            margin-bottom: 30px
+            +tablet
+                margin-bottom: 50px
+            .nav-item
+                &:not(:last-of-type)
+                    margin-right: 20px
+                    +mobile-sm-max
+                        margin-right: 0
+                .nav-link
+                    padding: 10px 23px
+                    color: $text-400
+                    line-height: 1.3
+                    position: relative
+                    font-weight: 600
+                    font-size: 16px
+                    +mobile-sm-max
+                        padding: 10px 12px
+                    &::after
+                        content: ''
+                        display: inline-block
+                        width: 5px
+                        height: 5px
+                        +border-radius(50%)
+                        background-color: transparent
+                        position: absolute
+                        +transform(translate(-50%, -50%))
+                        left: 50%
+                        top: auto
+                        bottom: 2px
+                    &.active
+                        background: $primary-color
+                        color: $white-color
+        &-info
+            margin-bottom: 30px
+            h5
+                margin-bottom: 5px
+                color: #000000
+            h6
+                margin-bottom: 15px
+            .btn
+                height: 40px
+                +mobile-sm-max
+                    padding: 16px
+            
+        .btn
+            z-index: 9999999
+        ul
+            margin-bottom: 30px
+            li
+                margin-bottom: 10px
+
+    &__table
+        border: none
+        // overflow: hidden
+        +border-radius(10px)
+        width: 100%
+        border-collapse: separate
+        border-spacing: 0
+        position: relative
+        &-head
+            td
+                border-top: 2px solid $primary-200 !important
+                h5
+                    color: #000000
+                    line-height: 21px
+                    margin-bottom: 13px
+                small
+                    color: $text-500
+
+        .bottom
+            border-bottom: 2px solid $primary-200 !important
+        .no-border
+            border: none !important
+
+        tr
+            .price
+                &-block
+                    h2
+                        line-height: 48px
+                        margin-bottom: 15px
+                        color: $text-900
+                h5
+                    line-height: 13px
+                    color: $text-500
+                    font-family: Heebo
+                    margin-bottom: 25px
+                    font-weight: 400
+                &.corner-right
+                    .price-block
+                        h2
+                            line-height: 1.2
+                            font-size: 1.38rem
+                            +fullhd
+                                line-height: 48px
+                    
+
+            &:hover
+                background: #fff !important
+            &:not(:last-of-type)
+                border-bottom: 1px solid rgba(0, 0, 0, 0.03)
+            &:last-of-type
+                td
+                    padding-bottom: 10px !important
+                    border-bottom: 2px solid #D7CCE4
+                    &:first-of-type
+                        +border-radius(0 0 0 20px)
+                    &:nth-of-type(2)
+                        border-right: 0
+                    &:last-of-type
+                        +border-radius(0 0 20px 0)
+                        border-left: 0
+            td
+                border-left: 1px solid rgba(0, 0, 0, 0.05)
+                padding: 8px 24px
+                vertical-align: top
+                +laptop
+                    padding: 8px 30px
+                font-size: 14px
+                width: 310px
+                &.price .btn-wrapper
+                    padding-bottom: 40px
+                    border-bottom: 0.886107px solid #DCD2E7
+                &:last-of-type
+                    border-right: 2px solid #D7CCE4
+                &:nth-of-type(2)
+                    border-right: 0
+                &:last-of-type
+                    border-left: 0
+                &:first-of-type
+                    width: 31.5%
+                    +laptop
+                        width: 30%
+                    +fullhd
+                        width: 310px
+            &:first-of-type td:nth-of-type(3)
+                +border-radius(20px 20px 0 0)
+                padding: 84px 30px 29px
+                +laptop
+                    padding: 84px 30px 8px
+                +fullhd
+                    padding: 84px 30px 30px
+                border-top: 5px solid #D7CCE4
+                border-right: 5px solid #D7CCE4
+                border-left: 5px solid #D7CCE4
+                border-top: 5px solid #D7CCE4 !important
+                // border-bottom: 0
+                box-shadow: 0px 6px 40px 10px rgba(0,0,0,0.1)
+                clip-path: inset(-50px -50px 0px -50px)
+                background: #F8F6FA
+                position: absolute
+                top: -38px
+                overflow: hidden
+                +desktop-mini
+                    width: 215px
+                +laptop
+                    width: 261px
+                +fullhd
+                    width: 310px
+                    top: -40px
+            &:last-of-type td:nth-of-type(3)
+                position: absolute !important
+                bottom: -35px
+                background: #F8F6FA
+                border-bottom: 5px solid #D7CCE4
+                border-left: 5px solid #D7CCE4
+                border-right: 5px solid #D7CCE4
+                padding-bottom: 44px !important
+                +border-radius(0 0 20px 20px)
+                box-shadow: 0px -6px 40px 10px rgba(0,0,0,0.1)
+                clip-path: inset(2px -50px -50px -50px)
+                +desktop-mini
+                    width: 212px
+                +laptop
+                    width: 259px
+                +fullhd
+                    width: 310px
+
+            &:not(:first-of-type):not(:last-of-type) td:nth-of-type(3)
+                border-left: 5px solid #D7CCE4
+                border-right: 5px solid #D7CCE4
+                background: #F8F6FA
+                // clip-path: inset(0px -50px 0px -50px)
+                position: relative
+                &:before, &:after
+                    content: " "
+                    height: 100%
+                    position: absolute
+                    top: 0
+                    width: 32px
+                &:before
+                    box-shadow: -32px 0 32px -32px inset rgba(0,0,0,0.15)
+                    left: -37px
+                &:after
+                    box-shadow: 32px 0 32px -32px inset rgba(0,0,0,0.15)
+                    right: -37px
+            &:nth-of-type(1)
+                td
+                    background-color: $white-color
+                    padding-top: 47px
+                    &:first-of-type
+                        +border-radius(20px 0 0 0)
+                    &:nth-of-type(4)
+                        +border-radius(0 20px 0 0)
+                        border-left-color: #f8edff
+                        padding-bottom: 30px
+                    &:nth-of-type(2)
+                        border-right-color: #f8edff
+
+            &:nth-of-type(3)
+                td
+                    h5
+                        line-height: 13px
+                        margin-bottom: 25px
+            &:last-of-type
+                td
+                    padding-bottom: 30px
+            &.data-row
+                td
+                    padding-top: 30px !important
+                &.border-bottom:not(:last-of-type)
+                    td:not(:first-of-type)
+                        ul
+                            border-bottom: 0.886107px solid #DCD2E7
+
+                ul
+                    margin: 0
+                    padding-bottom: 30px
+                    li
+                        line-height: 26px
+                        padding: 10px 0
+
+        &__responsive
+            width: 100%
+            margin-bottom: 30px
+            td
+                border: none !important
+                table 
+                    width: 100%
+                &:first-of-type
+                    padding-left: 0
+                &:last-of-type
+                    padding-right: 0
+
+.pricing__table tr td:first-of-type
+    border-left: 2px solid $primary-200
+
+.pricing__table tr td:not(:first-of-type)
+    text-align: center
+
+.pricing__table tr:nth-of-type(even)
+    background-color: #FFFFFF
+
+.pricing__table tr:hover
+    background-color: #EEEEEE
+
+.pricing__table .fa-check
+    color: #5336ca
+
+.pricing__table .fa-times
+    color: #D8D6E3
+
+
+.pricing__table td.price-table-popular
+    border-top: 3px solid #5336ca
+    color: #5336ca
+    text-transform: uppercase
+    font-size: 12px
+    padding: 12px 48px
+    font-weight: 700
+
+.pricing__table .price-blank
+    background-color: transparent
+    border: 0 none
+
+.pricing__table svg
+    width: 90px
+    fill: #5336ca
+
+table
+    tr,td,th
+        .pricing &
+            border: none
+    td
+        .pricing &
+            border-left: 1px solid $primary-200
+            border-right: 1px solid $primary-200
+
+.see-more__trigger
+    position: absolute
+    height: 160px
+    +tablet
+        height: 187px
+    +desktop-mini
+        height: 289px
+    left: 0
+    bottom: 0
+    width: 100%
+    +gradient(180deg,rgba(255, 255, 255, 0) 0%,#ffffff 100%)
+    .btn
+        padding: 15px 30px
+        background-color: #ffffff
+        border-radius: 4px !important
+        font-size: 1.125rem
+        &:hover
+            background-color: $primary-color
+            color: $white-color
+        +mobile-sm-max
+            min-width: 90%
+            width: 90%
+            
+.see-less__trigger
+    +desktop-mini
+        margin-top: 70px
+    .btn
+        padding: 15px 30px
+        z-index: 2
+        background-color: #ffffff
+        font-size: 1.125rem
+        border-radius: 4px !important
+        &:hover
+            background-color: $primary-color
+            color: $white-color
